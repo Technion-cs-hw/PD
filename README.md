@@ -1,11 +1,15 @@
 🧠 Evolution of Cooperation in the Iterated Prisoner's Dilemma
+
 This project explores the evolution of strategies in the Iterated Prisoner’s Dilemma (IPD) using simulations in Wolfram Mathematica. It studies how different strategies perform and evolve over time depending on parameters like memory length, number of rounds per game, and population selection dynamics.
 
 
 📂 Project Structure
+
 .
 ├── sim.nb     # Main Mathematica notebook with simulation and plotting code
+
 ├── results.pdf               # PDF summary of findings and generated graphs
+
 ├── benchmarks/
 │   ├── predefined/                   # Simulations with predefined strategies (Axelrod's tournament)
 │   │   ├── roundStatistics_10p_50p_50r.json
