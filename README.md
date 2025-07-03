@@ -1,4 +1,4 @@
-🧠 Evolution of Cooperation in the Iterated Prisoner's Dilemma
+### 🧠 Evolution of Cooperation in the Iterated Prisoner's Dilemma
 
 This project explores the evolution of strategies in the Iterated Prisoner’s Dilemma (IPD) using simulations in Wolfram Mathematica. It studies how different strategies perform and evolve over time depending on parameters like memory length, number of rounds per game, and population selection dynamics.
 
@@ -24,7 +24,7 @@ This project explores the evolution of strategies in the Iterated Prisoner’s D
 
 
 
-🧪 Experiments
+### 🧪 Experiments
 Three main experiments were conducted:
 1. Random strategies with short memory (historyLength = 2)
 → Rare convergence to cooperation with short games (numRounds = 50).
@@ -35,7 +35,7 @@ Three main experiments were conducted:
 → Tit-for-Tat consistently dominates only when the number of rounds per game is large (e.g., 200+).
 *The random/ folder includes both converged and failed simulation runs for comparison.
 
-📊 Summary
+### 📊 Summary
 - Tit-for-Tat is optimal in the long term but not in short games.
 - Increasing historyLength expands the strategy space, requiring more generations to evolve effective strategies.
 - Cooperation is favored in longer interactions; short games lead to more defection.
