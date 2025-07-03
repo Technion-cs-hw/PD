@@ -4,7 +4,8 @@ This project explores the evolution of strategies in the Iterated Prisoner’s D
 
 
 📂 Project Structure
-'''bash
+```
+.
 ├── PrisonersDilemmaSimulation.nb     # Main Mathematica notebook with simulation and plotting code
 ├── results-summary.pdf               # PDF summary of findings and generated graphs
 ├── benchmarks/
@@ -19,7 +20,7 @@ This project explores the evolution of strategies in the Iterated Prisoner’s D
 │           ├── run1.json
 │           └── ...
 └── README.md
-'''
+```
 
 
 🧪 Experiments
