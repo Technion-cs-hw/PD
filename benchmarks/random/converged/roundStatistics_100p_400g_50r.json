@@ -1,0 +1,2398 @@
+[
+    {
+        "Round": 1,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 70,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.4985714285714286
+    },
+    {
+        "Round": 2,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 71,
+        "TftScore": 0,
+        "AvgTftSimilarity": 0.51
+    },
+    {
+        "Round": 3,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 56,
+        "TftScore": 0,
+        "AvgTftSimilarity": 0.52
+    },
+    {
+        "Round": 4,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 50,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.5499999999999996
+    },
+    {
+        "Round": 5,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 45,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.5257142857142856
+    },
+    {
+        "Round": 6,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 43,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.5042857142857143
+    },
+    {
+        "Round": 7,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 46,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.5171428571428569
+    },
+    {
+        "Round": 8,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 41,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.5314285714285715
+    },
+    {
+        "Round": 9,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 43,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.5257142857142856
+    },
+    {
+        "Round": 10,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 37,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.5299999999999998
+    },
+    {
+        "Round": 11,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 35,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.5514285714285713
+    },
+    {
+        "Round": 12,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 32,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.5328571428571429
+    },
+    {
+        "Round": 13,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 28,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.5042857142857142
+    },
+    {
+        "Round": 14,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 26,
+        "TftScore": 0,
+        "AvgTftSimilarity": 0.5100000000000001
+    },
+    {
+        "Round": 15,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 29,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.52
+    },
+    {
+        "Round": 16,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 27,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.512857142857143
+    },
+    {
+        "Round": 17,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 25,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.537142857142857
+    },
+    {
+        "Round": 18,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 26,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.542857142857143
+    },
+    {
+        "Round": 19,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 26,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.5571428571428572
+    },
+    {
+        "Round": 20,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 26,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.5557142857142859
+    },
+    {
+        "Round": 21,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 22,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.5542857142857143
+    },
+    {
+        "Round": 22,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 23,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.5628571428571426
+    },
+    {
+        "Round": 23,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 22,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.562857142857143
+    },
+    {
+        "Round": 24,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 18,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.547142857142857
+    },
+    {
+        "Round": 25,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 17,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.5457142857142858
+    },
+    {
+        "Round": 26,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 18,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.5342857142857141
+    },
+    {
+        "Round": 27,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 17,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.5271428571428571
+    },
+    {
+        "Round": 28,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 17,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.5342857142857145
+    },
+    {
+        "Round": 29,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 20,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.5128571428571427
+    },
+    {
+        "Round": 30,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 19,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.5271428571428571
+    },
+    {
+        "Round": 31,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 22,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.5200000000000001
+    },
+    {
+        "Round": 32,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 23,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.5428571428571427
+    },
+    {
+        "Round": 33,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 19,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.5528571428571428
+    },
+    {
+        "Round": 34,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 21,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.5671428571428571
+    },
+    {
+        "Round": 35,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 19,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.5899999999999999
+    },
+    {
+        "Round": 36,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 23,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.5842857142857142
+    },
+    {
+        "Round": 37,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 23,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6057142857142856
+    },
+    {
+        "Round": 38,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 21,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6257142857142859
+    },
+    {
+        "Round": 39,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 18,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6428571428571429
+    },
+    {
+        "Round": 40,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 18,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6428571428571428
+    },
+    {
+        "Round": 41,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 14,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6457142857142856
+    },
+    {
+        "Round": 42,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 12,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6485714285714285
+    },
+    {
+        "Round": 43,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 13,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.65
+    },
+    {
+        "Round": 44,
+        "MinScore": 0,
+        "MaxScore": 0,
+        "AvgScore": 0,
+        "NumUniqueStrategies": 10,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6671428571428569
+    },
+    {
+        "Round": 45,
+        "MinScore": 13004,
+        "MaxScore": 14682,
+        "AvgScore": 14244.48,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 10,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6671428571428569
+    },
+    {
+        "Round": 46,
+        "MinScore": 12818,
+        "MaxScore": 14676,
+        "AvgScore": 14129.13,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 10,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6542857142857141
+    },
+    {
+        "Round": 47,
+        "MinScore": 11749,
+        "MaxScore": 14753,
+        "AvgScore": 14411.97,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 10,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6785714285714286
+    },
+    {
+        "Round": 48,
+        "MinScore": 13118,
+        "MaxScore": 14757,
+        "AvgScore": 14347.13,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 10,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6885714285714285
+    },
+    {
+        "Round": 49,
+        "MinScore": 13156,
+        "MaxScore": 14745,
+        "AvgScore": 14353.16,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 11,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6914285714285713
+    },
+    {
+        "Round": 50,
+        "MinScore": 12851,
+        "MaxScore": 14731,
+        "AvgScore": 14222.9,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 10,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6857142857142855
+    },
+    {
+        "Round": 51,
+        "MinScore": 11784,
+        "MaxScore": 14747,
+        "AvgScore": 14426.04,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 12,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6842857142857143
+    },
+    {
+        "Round": 52,
+        "MinScore": 11511,
+        "MaxScore": 14739,
+        "AvgScore": 14185.49,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 10,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.681428571428571
+    },
+    {
+        "Round": 53,
+        "MinScore": 13346,
+        "MaxScore": 14757,
+        "AvgScore": 14304.34,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 7,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6928571428571424
+    },
+    {
+        "Round": 54,
+        "MinScore": 13278,
+        "MaxScore": 14766,
+        "AvgScore": 14266.68,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 7,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6971428571428566
+    },
+    {
+        "Round": 55,
+        "MinScore": 13414,
+        "MaxScore": 14766,
+        "AvgScore": 14347.89,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 8,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7057142857142853
+    },
+    {
+        "Round": 56,
+        "MinScore": 13432,
+        "MaxScore": 14772,
+        "AvgScore": 14366.36,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 8,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6999999999999996
+    },
+    {
+        "Round": 57,
+        "MinScore": 13738,
+        "MaxScore": 14790,
+        "AvgScore": 14571.97,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 8,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7028571428571426
+    },
+    {
+        "Round": 58,
+        "MinScore": 14062,
+        "MaxScore": 14823,
+        "AvgScore": 14707.82,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 8,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7257142857142854
+    },
+    {
+        "Round": 59,
+        "MinScore": 14022,
+        "MaxScore": 14824,
+        "AvgScore": 14664.44,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 8,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7357142857142851
+    },
+    {
+        "Round": 60,
+        "MinScore": 14098,
+        "MaxScore": 14811,
+        "AvgScore": 14704.6,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 8,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7271428571428568
+    },
+    {
+        "Round": 61,
+        "MinScore": 14030,
+        "MaxScore": 14819,
+        "AvgScore": 14663.41,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 8,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.734285714285714
+    },
+    {
+        "Round": 62,
+        "MinScore": 13906,
+        "MaxScore": 14794,
+        "AvgScore": 14623.95,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 7,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7257142857142856
+    },
+    {
+        "Round": 63,
+        "MinScore": 13860,
+        "MaxScore": 14799,
+        "AvgScore": 14605.83,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 8,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7299999999999993
+    },
+    {
+        "Round": 64,
+        "MinScore": 13890,
+        "MaxScore": 14822,
+        "AvgScore": 14597.1,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 6,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7442857142857139
+    },
+    {
+        "Round": 65,
+        "MinScore": 14000,
+        "MaxScore": 14827,
+        "AvgScore": 14640.29,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 7,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7471428571428563
+    },
+    {
+        "Round": 66,
+        "MinScore": 14012,
+        "MaxScore": 14817,
+        "AvgScore": 14648.78,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 8,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7428571428571423
+    },
+    {
+        "Round": 67,
+        "MinScore": 14218,
+        "MaxScore": 14841,
+        "AvgScore": 14724.9,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 8,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.751428571428571
+    },
+    {
+        "Round": 68,
+        "MinScore": 13928,
+        "MaxScore": 14801,
+        "AvgScore": 14606.92,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 8,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7357142857142854
+    },
+    {
+        "Round": 69,
+        "MinScore": 14014,
+        "MaxScore": 14826,
+        "AvgScore": 14633.19,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 8,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7457142857142851
+    },
+    {
+        "Round": 70,
+        "MinScore": 14174,
+        "MaxScore": 14834,
+        "AvgScore": 14687.98,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 7,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7528571428571418
+    },
+    {
+        "Round": 71,
+        "MinScore": 14460,
+        "MaxScore": 14879,
+        "AvgScore": 14771.66,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 7,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7714285714285708
+    },
+    {
+        "Round": 72,
+        "MinScore": 14674,
+        "MaxScore": 14890,
+        "AvgScore": 14799.54,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 8,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7814285714285709
+    },
+    {
+        "Round": 73,
+        "MinScore": 14532,
+        "MaxScore": 14876,
+        "AvgScore": 14772.64,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 6,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.775714285714285
+    },
+    {
+        "Round": 74,
+        "MinScore": 14476,
+        "MaxScore": 14840,
+        "AvgScore": 14748.01,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 6,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7671428571428565
+    },
+    {
+        "Round": 75,
+        "MinScore": 14294,
+        "MaxScore": 14856,
+        "AvgScore": 14707.53,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 7,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7728571428571419
+    },
+    {
+        "Round": 76,
+        "MinScore": 14266,
+        "MaxScore": 14834,
+        "AvgScore": 14689.86,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 6,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7657142857142851
+    },
+    {
+        "Round": 77,
+        "MinScore": 14464,
+        "MaxScore": 14863,
+        "AvgScore": 14746.05,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 7,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7757142857142854
+    },
+    {
+        "Round": 78,
+        "MinScore": 14476,
+        "MaxScore": 14866,
+        "AvgScore": 14748.45,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 6,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7771428571428564
+    },
+    {
+        "Round": 79,
+        "MinScore": 14610,
+        "MaxScore": 14856,
+        "AvgScore": 14762.28,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 6,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7785714285714276
+    },
+    {
+        "Round": 80,
+        "MinScore": 14602,
+        "MaxScore": 14861,
+        "AvgScore": 14764.05,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 5,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7814285714285714
+    },
+    {
+        "Round": 81,
+        "MinScore": 14630,
+        "MaxScore": 14841,
+        "AvgScore": 14760.08,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7771428571428571
+    },
+    {
+        "Round": 82,
+        "MinScore": 14634,
+        "MaxScore": 14807,
+        "AvgScore": 14743.2,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7657142857142852
+    },
+    {
+        "Round": 83,
+        "MinScore": 14685,
+        "MaxScore": 14805,
+        "AvgScore": 14750.7,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.765714285714285
+    },
+    {
+        "Round": 84,
+        "MinScore": 14670,
+        "MaxScore": 14773,
+        "AvgScore": 14733.52,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7528571428571427
+    },
+    {
+        "Round": 85,
+        "MinScore": 14682,
+        "MaxScore": 14801,
+        "AvgScore": 14748.52,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7642857142857136
+    },
+    {
+        "Round": 86,
+        "MinScore": 14676,
+        "MaxScore": 14796,
+        "AvgScore": 14742.08,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7628571428571422
+    },
+    {
+        "Round": 87,
+        "MinScore": 14673,
+        "MaxScore": 14792,
+        "AvgScore": 14739.85,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7614285714285708
+    },
+    {
+        "Round": 88,
+        "MinScore": 14636,
+        "MaxScore": 14790,
+        "AvgScore": 14734.16,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7599999999999993
+    },
+    {
+        "Round": 89,
+        "MinScore": 14655,
+        "MaxScore": 14765,
+        "AvgScore": 14724.25,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7514285714285712
+    },
+    {
+        "Round": 90,
+        "MinScore": 14670,
+        "MaxScore": 14788,
+        "AvgScore": 14737.6,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7599999999999996
+    },
+    {
+        "Round": 91,
+        "MinScore": 14672,
+        "MaxScore": 14799,
+        "AvgScore": 14740.04,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7642857142857138
+    },
+    {
+        "Round": 92,
+        "MinScore": 14685,
+        "MaxScore": 14817,
+        "AvgScore": 14756.58,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7714285714285714
+    },
+    {
+        "Round": 93,
+        "MinScore": 14688,
+        "MaxScore": 14821,
+        "AvgScore": 14761.05,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7728571428571428
+    },
+    {
+        "Round": 94,
+        "MinScore": 14697,
+        "MaxScore": 14874,
+        "AvgScore": 14770.13,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7785714285714281
+    },
+    {
+        "Round": 95,
+        "MinScore": 14727,
+        "MaxScore": 14944,
+        "AvgScore": 14791.33,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.794285714285714
+    },
+    {
+        "Round": 96,
+        "MinScore": 14715,
+        "MaxScore": 14936,
+        "AvgScore": 14783.85,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7885714285714276
+    },
+    {
+        "Round": 97,
+        "MinScore": 14742,
+        "MaxScore": 14954,
+        "AvgScore": 14800.23,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.8014285714285707
+    },
+    {
+        "Round": 98,
+        "MinScore": 14736,
+        "MaxScore": 14900,
+        "AvgScore": 14794.96,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7971428571428568
+    },
+    {
+        "Round": 99,
+        "MinScore": 14733,
+        "MaxScore": 14878,
+        "AvgScore": 14789.37,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7928571428571423
+    },
+    {
+        "Round": 100,
+        "MinScore": 14766,
+        "MaxScore": 14958,
+        "AvgScore": 14812.92,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.8114285714285709
+    },
+    {
+        "Round": 101,
+        "MinScore": 14772,
+        "MaxScore": 14930,
+        "AvgScore": 14816.2,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 3,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.8114285714285714
+    },
+    {
+        "Round": 102,
+        "MinScore": 14784,
+        "MaxScore": 14931,
+        "AvgScore": 14818.89,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.8099999999999993
+    },
+    {
+        "Round": 103,
+        "MinScore": 14718,
+        "MaxScore": 14936,
+        "AvgScore": 14817,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.8085714285714279
+    },
+    {
+        "Round": 104,
+        "MinScore": 14736,
+        "MaxScore": 14917,
+        "AvgScore": 14815.68,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.8014285714285709
+    },
+    {
+        "Round": 105,
+        "MinScore": 14716,
+        "MaxScore": 14919,
+        "AvgScore": 14817.5,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.8014285714285709
+    },
+    {
+        "Round": 106,
+        "MinScore": 14482,
+        "MaxScore": 14889,
+        "AvgScore": 14784.93,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7871428571428565
+    },
+    {
+        "Round": 107,
+        "MinScore": 14404,
+        "MaxScore": 14864,
+        "AvgScore": 14754.89,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7785714285714278
+    },
+    {
+        "Round": 108,
+        "MinScore": 14544,
+        "MaxScore": 14887,
+        "AvgScore": 14784.69,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.788571428571428
+    },
+    {
+        "Round": 109,
+        "MinScore": 14636,
+        "MaxScore": 14890,
+        "AvgScore": 14793.28,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7914285714285709
+    },
+    {
+        "Round": 110,
+        "MinScore": 14640,
+        "MaxScore": 14898,
+        "AvgScore": 14796.6,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7942857142857136
+    },
+    {
+        "Round": 111,
+        "MinScore": 14698,
+        "MaxScore": 14896,
+        "AvgScore": 14801.4,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7942857142857139
+    },
+    {
+        "Round": 112,
+        "MinScore": 14674,
+        "MaxScore": 14903,
+        "AvgScore": 14798.4,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7971428571428565
+    },
+    {
+        "Round": 113,
+        "MinScore": 14778,
+        "MaxScore": 14905,
+        "AvgScore": 14812.97,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.798571428571428
+    },
+    {
+        "Round": 114,
+        "MinScore": 14769,
+        "MaxScore": 14887,
+        "AvgScore": 14806.99,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7914285714285707
+    },
+    {
+        "Round": 115,
+        "MinScore": 14704,
+        "MaxScore": 14882,
+        "AvgScore": 14810.45,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7871428571428565
+    },
+    {
+        "Round": 116,
+        "MinScore": 14564,
+        "MaxScore": 14872,
+        "AvgScore": 14786.32,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7828571428571423
+    },
+    {
+        "Round": 117,
+        "MinScore": 14494,
+        "MaxScore": 14850,
+        "AvgScore": 14768.22,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.774285714285714
+    },
+    {
+        "Round": 118,
+        "MinScore": 14268,
+        "MaxScore": 14820,
+        "AvgScore": 14701.44,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.762857142857142
+    },
+    {
+        "Round": 119,
+        "MinScore": 14402,
+        "MaxScore": 14860,
+        "AvgScore": 14753.12,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7771428571428569
+    },
+    {
+        "Round": 120,
+        "MinScore": 14582,
+        "MaxScore": 14887,
+        "AvgScore": 14792.58,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7885714285714281
+    },
+    {
+        "Round": 121,
+        "MinScore": 14578,
+        "MaxScore": 14879,
+        "AvgScore": 14789.2,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7857142857142854
+    },
+    {
+        "Round": 122,
+        "MinScore": 14622,
+        "MaxScore": 14904,
+        "AvgScore": 14799.21,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7957142857142856
+    },
+    {
+        "Round": 123,
+        "MinScore": 14628,
+        "MaxScore": 14903,
+        "AvgScore": 14806.51,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.794285714285714
+    },
+    {
+        "Round": 124,
+        "MinScore": 14530,
+        "MaxScore": 14893,
+        "AvgScore": 14779.5,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7914285714285711
+    },
+    {
+        "Round": 125,
+        "MinScore": 14440,
+        "MaxScore": 14865,
+        "AvgScore": 14750.2,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7814285714285708
+    },
+    {
+        "Round": 126,
+        "MinScore": 14442,
+        "MaxScore": 14861,
+        "AvgScore": 14743.09,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7814285714285706
+    },
+    {
+        "Round": 127,
+        "MinScore": 14444,
+        "MaxScore": 14831,
+        "AvgScore": 14735.74,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7699999999999992
+    },
+    {
+        "Round": 128,
+        "MinScore": 14416,
+        "MaxScore": 14817,
+        "AvgScore": 14727.28,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7642857142857138
+    },
+    {
+        "Round": 129,
+        "MinScore": 14320,
+        "MaxScore": 14785,
+        "AvgScore": 14697.45,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7514285714285707
+    },
+    {
+        "Round": 130,
+        "MinScore": 14452,
+        "MaxScore": 14834,
+        "AvgScore": 14744.09,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7699999999999997
+    },
+    {
+        "Round": 131,
+        "MinScore": 14422,
+        "MaxScore": 14800,
+        "AvgScore": 14713.8,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7599999999999993
+    },
+    {
+        "Round": 132,
+        "MinScore": 14456,
+        "MaxScore": 14847,
+        "AvgScore": 14738.57,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7771428571428567
+    },
+    {
+        "Round": 133,
+        "MinScore": 14364,
+        "MaxScore": 14815,
+        "AvgScore": 14705.27,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7657142857142852
+    },
+    {
+        "Round": 134,
+        "MinScore": 14510,
+        "MaxScore": 14816,
+        "AvgScore": 14733.37,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7671428571428567
+    },
+    {
+        "Round": 135,
+        "MinScore": 14572,
+        "MaxScore": 14809,
+        "AvgScore": 14742.54,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7642857142857136
+    },
+    {
+        "Round": 136,
+        "MinScore": 14260,
+        "MaxScore": 14759,
+        "AvgScore": 14655.03,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.745714285714285
+    },
+    {
+        "Round": 137,
+        "MinScore": 14008,
+        "MaxScore": 14719,
+        "AvgScore": 14562.24,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7299999999999999
+    },
+    {
+        "Round": 138,
+        "MinScore": 13898,
+        "MaxScore": 14693,
+        "AvgScore": 14510.86,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7199999999999995
+    },
+    {
+        "Round": 139,
+        "MinScore": 14194,
+        "MaxScore": 14703,
+        "AvgScore": 14609.8,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7257142857142854
+    },
+    {
+        "Round": 140,
+        "MinScore": 14168,
+        "MaxScore": 14706,
+        "AvgScore": 14603.13,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7271428571428565
+    },
+    {
+        "Round": 141,
+        "MinScore": 14280,
+        "MaxScore": 14702,
+        "AvgScore": 14630.92,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7257142857142853
+    },
+    {
+        "Round": 142,
+        "MinScore": 14498,
+        "MaxScore": 14729,
+        "AvgScore": 14685.34,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7371428571428568
+    },
+    {
+        "Round": 143,
+        "MinScore": 14558,
+        "MaxScore": 14731,
+        "AvgScore": 14693.57,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7385714285714279
+    },
+    {
+        "Round": 144,
+        "MinScore": 14478,
+        "MaxScore": 14723,
+        "AvgScore": 14676.69,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.735714285714285
+    },
+    {
+        "Round": 145,
+        "MinScore": 14506,
+        "MaxScore": 14703,
+        "AvgScore": 14669.72,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7285714285714284
+    },
+    {
+        "Round": 146,
+        "MinScore": 14613,
+        "MaxScore": 14718,
+        "AvgScore": 14691.39,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 3,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7357142857142854
+    },
+    {
+        "Round": 147,
+        "MinScore": 14586,
+        "MaxScore": 14703,
+        "AvgScore": 14676.99,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 3,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.73
+    },
+    {
+        "Round": 148,
+        "MinScore": 14598,
+        "MaxScore": 14692,
+        "AvgScore": 14673.6,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7257142857142854
+    },
+    {
+        "Round": 149,
+        "MinScore": 14526,
+        "MaxScore": 14722,
+        "AvgScore": 14682.83,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7357142857142854
+    },
+    {
+        "Round": 150,
+        "MinScore": 14240,
+        "MaxScore": 14690,
+        "AvgScore": 14611,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 3,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7228571428571428
+    },
+    {
+        "Round": 151,
+        "MinScore": 14028,
+        "MaxScore": 14675,
+        "AvgScore": 14544.62,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7157142857142855
+    },
+    {
+        "Round": 152,
+        "MinScore": 14058,
+        "MaxScore": 14680,
+        "AvgScore": 14557.72,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7171428571428565
+    },
+    {
+        "Round": 153,
+        "MinScore": 14172,
+        "MaxScore": 14693,
+        "AvgScore": 14596.71,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7228571428571425
+    },
+    {
+        "Round": 154,
+        "MinScore": 14024,
+        "MaxScore": 14688,
+        "AvgScore": 14550.64,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7199999999999998
+    },
+    {
+        "Round": 155,
+        "MinScore": 14406,
+        "MaxScore": 14697,
+        "AvgScore": 14650.8,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7257142857142854
+    },
+    {
+        "Round": 156,
+        "MinScore": 14276,
+        "MaxScore": 14686,
+        "AvgScore": 14617.49,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7214285714285712
+    },
+    {
+        "Round": 157,
+        "MinScore": 14316,
+        "MaxScore": 14711,
+        "AvgScore": 14641.42,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7299999999999998
+    },
+    {
+        "Round": 158,
+        "MinScore": 14242,
+        "MaxScore": 14702,
+        "AvgScore": 14621.26,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7257142857142855
+    },
+    {
+        "Round": 159,
+        "MinScore": 14226,
+        "MaxScore": 14691,
+        "AvgScore": 14612.19,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7214285714285714
+    },
+    {
+        "Round": 160,
+        "MinScore": 14394,
+        "MaxScore": 14673,
+        "AvgScore": 14634.3,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7171428571428571
+    },
+    {
+        "Round": 161,
+        "MinScore": 14302,
+        "MaxScore": 14662,
+        "AvgScore": 14609.43,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7128571428571426
+    },
+    {
+        "Round": 162,
+        "MinScore": 14440,
+        "MaxScore": 14689,
+        "AvgScore": 14652.45,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7228571428571425
+    },
+    {
+        "Round": 163,
+        "MinScore": 14456,
+        "MaxScore": 14700,
+        "AvgScore": 14660.73,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7271428571428571
+    },
+    {
+        "Round": 164,
+        "MinScore": 14320,
+        "MaxScore": 14677,
+        "AvgScore": 14621.52,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7185714285714282
+    },
+    {
+        "Round": 165,
+        "MinScore": 14078,
+        "MaxScore": 14657,
+        "AvgScore": 14549.47,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 3,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7099999999999999
+    },
+    {
+        "Round": 166,
+        "MinScore": 14012,
+        "MaxScore": 14643,
+        "AvgScore": 14521.82,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7042857142857143
+    },
+    {
+        "Round": 167,
+        "MinScore": 14210,
+        "MaxScore": 14651,
+        "AvgScore": 14581.6,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7085714285714285
+    },
+    {
+        "Round": 168,
+        "MinScore": 14394,
+        "MaxScore": 14652,
+        "AvgScore": 14620.29,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.71
+    },
+    {
+        "Round": 169,
+        "MinScore": 14106,
+        "MaxScore": 14637,
+        "AvgScore": 14546.22,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7028571428571427
+    },
+    {
+        "Round": 170,
+        "MinScore": 14066,
+        "MaxScore": 14654,
+        "AvgScore": 14544.7,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7085714285714282
+    },
+    {
+        "Round": 171,
+        "MinScore": 13970,
+        "MaxScore": 14656,
+        "AvgScore": 14515.4,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7085714285714283
+    },
+    {
+        "Round": 172,
+        "MinScore": 14056,
+        "MaxScore": 14684,
+        "AvgScore": 14562.88,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7171428571428567
+    },
+    {
+        "Round": 173,
+        "MinScore": 14130,
+        "MaxScore": 14693,
+        "AvgScore": 14587.93,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.721428571428571
+    },
+    {
+        "Round": 174,
+        "MinScore": 13780,
+        "MaxScore": 14672,
+        "AvgScore": 14454.72,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7114285714285711
+    },
+    {
+        "Round": 175,
+        "MinScore": 13794,
+        "MaxScore": 14637,
+        "AvgScore": 14441.1,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6999999999999998
+    },
+    {
+        "Round": 176,
+        "MinScore": 14020,
+        "MaxScore": 14659,
+        "AvgScore": 14533.38,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7099999999999995
+    },
+    {
+        "Round": 177,
+        "MinScore": 13852,
+        "MaxScore": 14656,
+        "AvgScore": 14473.89,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7071428571428572
+    },
+    {
+        "Round": 178,
+        "MinScore": 13990,
+        "MaxScore": 14662,
+        "AvgScore": 14526.99,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7099999999999997
+    },
+    {
+        "Round": 179,
+        "MinScore": 13666,
+        "MaxScore": 14617,
+        "AvgScore": 14377.02,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6914285714285714
+    },
+    {
+        "Round": 180,
+        "MinScore": 13764,
+        "MaxScore": 14619,
+        "AvgScore": 14420.34,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6928571428571426
+    },
+    {
+        "Round": 181,
+        "MinScore": 13968,
+        "MaxScore": 14618,
+        "AvgScore": 14494.76,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6942857142857142
+    },
+    {
+        "Round": 182,
+        "MinScore": 13906,
+        "MaxScore": 14625,
+        "AvgScore": 14475.9,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6971428571428572
+    },
+    {
+        "Round": 183,
+        "MinScore": 14014,
+        "MaxScore": 14626,
+        "AvgScore": 14511.99,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 3,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6985714285714286
+    },
+    {
+        "Round": 184,
+        "MinScore": 13946,
+        "MaxScore": 14608,
+        "AvgScore": 14479.64,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6914285714285714
+    },
+    {
+        "Round": 185,
+        "MinScore": 13994,
+        "MaxScore": 14607,
+        "AvgScore": 14494.64,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6914285714285714
+    },
+    {
+        "Round": 186,
+        "MinScore": 14142,
+        "MaxScore": 14612,
+        "AvgScore": 14540.24,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 4,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6942857142857142
+    },
+    {
+        "Round": 187,
+        "MinScore": 13604,
+        "MaxScore": 14582,
+        "AvgScore": 14327.2,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 3,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.68
+    },
+    {
+        "Round": 188,
+        "MinScore": 13700,
+        "MaxScore": 14580,
+        "AvgScore": 14368.8,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.68
+    },
+    {
+        "Round": 189,
+        "MinScore": 13700,
+        "MaxScore": 14580,
+        "AvgScore": 14368.8,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6799999999999998
+    },
+    {
+        "Round": 190,
+        "MinScore": 13800,
+        "MaxScore": 14586,
+        "AvgScore": 14413.08,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6828571428571428
+    },
+    {
+        "Round": 191,
+        "MinScore": 13700,
+        "MaxScore": 14580,
+        "AvgScore": 14368.8,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.68
+    },
+    {
+        "Round": 192,
+        "MinScore": 13850,
+        "MaxScore": 14589,
+        "AvgScore": 14433.81,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6842857142857143
+    },
+    {
+        "Round": 193,
+        "MinScore": 13800,
+        "MaxScore": 14586,
+        "AvgScore": 14413.08,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.682857142857143
+    },
+    {
+        "Round": 194,
+        "MinScore": 13500,
+        "MaxScore": 14568,
+        "AvgScore": 14268.96,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6742857142857142
+    },
+    {
+        "Round": 195,
+        "MinScore": 13550,
+        "MaxScore": 14571,
+        "AvgScore": 14295.33,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6757142857142856
+    },
+    {
+        "Round": 196,
+        "MinScore": 13750,
+        "MaxScore": 14583,
+        "AvgScore": 14391.41,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6814285714285714
+    },
+    {
+        "Round": 197,
+        "MinScore": 14000,
+        "MaxScore": 14598,
+        "AvgScore": 14490.36,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6885714285714286
+    },
+    {
+        "Round": 198,
+        "MinScore": 14000,
+        "MaxScore": 14598,
+        "AvgScore": 14490.36,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6885714285714286
+    },
+    {
+        "Round": 199,
+        "MinScore": 14100,
+        "MaxScore": 14604,
+        "AvgScore": 14523.36,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6914285714285715
+    },
+    {
+        "Round": 200,
+        "MinScore": 14450,
+        "MaxScore": 14625,
+        "AvgScore": 14609.25,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7014285714285714
+    },
+    {
+        "Round": 201,
+        "MinScore": 14250,
+        "MaxScore": 14613,
+        "AvgScore": 14565.81,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6957142857142857
+    },
+    {
+        "Round": 202,
+        "MinScore": 14250,
+        "MaxScore": 14613,
+        "AvgScore": 14565.81,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6957142857142858
+    },
+    {
+        "Round": 203,
+        "MinScore": 14300,
+        "MaxScore": 14616,
+        "AvgScore": 14578.08,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6971428571428571
+    },
+    {
+        "Round": 204,
+        "MinScore": 14200,
+        "MaxScore": 14610,
+        "AvgScore": 14552.6,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6942857142857143
+    },
+    {
+        "Round": 205,
+        "MinScore": 14150,
+        "MaxScore": 14607,
+        "AvgScore": 14538.45,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.692857142857143
+    },
+    {
+        "Round": 206,
+        "MinScore": 14450,
+        "MaxScore": 14625,
+        "AvgScore": 14609.25,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7014285714285715
+    },
+    {
+        "Round": 207,
+        "MinScore": 14500,
+        "MaxScore": 14628,
+        "AvgScore": 14617.76,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.702857142857143
+    },
+    {
+        "Round": 208,
+        "MinScore": 14400,
+        "MaxScore": 14622,
+        "AvgScore": 14599.8,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7
+    },
+    {
+        "Round": 209,
+        "MinScore": 14350,
+        "MaxScore": 14619,
+        "AvgScore": 14589.41,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6985714285714285
+    },
+    {
+        "Round": 210,
+        "MinScore": 14350,
+        "MaxScore": 14619,
+        "AvgScore": 14589.41,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6985714285714285
+    },
+    {
+        "Round": 211,
+        "MinScore": 14250,
+        "MaxScore": 14613,
+        "AvgScore": 14565.81,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6957142857142857
+    },
+    {
+        "Round": 212,
+        "MinScore": 14500,
+        "MaxScore": 14628,
+        "AvgScore": 14617.76,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.702857142857143
+    },
+    {
+        "Round": 213,
+        "MinScore": 14450,
+        "MaxScore": 14625,
+        "AvgScore": 14609.25,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7014285714285714
+    },
+    {
+        "Round": 214,
+        "MinScore": 14400,
+        "MaxScore": 14622,
+        "AvgScore": 14599.8,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7
+    },
+    {
+        "Round": 215,
+        "MinScore": 14500,
+        "MaxScore": 14628,
+        "AvgScore": 14617.76,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7028571428571427
+    },
+    {
+        "Round": 216,
+        "MinScore": 14400,
+        "MaxScore": 14622,
+        "AvgScore": 14599.8,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6999999999999998
+    },
+    {
+        "Round": 217,
+        "MinScore": 14550,
+        "MaxScore": 14631,
+        "AvgScore": 14625.33,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7042857142857143
+    },
+    {
+        "Round": 218,
+        "MinScore": 14300,
+        "MaxScore": 14616,
+        "AvgScore": 14578.08,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6971428571428572
+    },
+    {
+        "Round": 219,
+        "MinScore": 14450,
+        "MaxScore": 14625,
+        "AvgScore": 14609.25,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7014285714285714
+    },
+    {
+        "Round": 220,
+        "MinScore": 14550,
+        "MaxScore": 14631,
+        "AvgScore": 14625.33,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7042857142857142
+    },
+    {
+        "Round": 221,
+        "MinScore": 14500,
+        "MaxScore": 14628,
+        "AvgScore": 14617.76,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7028571428571427
+    },
+    {
+        "Round": 222,
+        "MinScore": 14550,
+        "MaxScore": 14631,
+        "AvgScore": 14625.33,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7042857142857143
+    },
+    {
+        "Round": 223,
+        "MinScore": 14600,
+        "MaxScore": 14634,
+        "AvgScore": 14631.96,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7057142857142855
+    },
+    {
+        "Round": 224,
+        "MinScore": 14350,
+        "MaxScore": 14619,
+        "AvgScore": 14589.41,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6985714285714285
+    },
+    {
+        "Round": 225,
+        "MinScore": 14550,
+        "MaxScore": 14631,
+        "AvgScore": 14625.33,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7042857142857143
+    },
+    {
+        "Round": 226,
+        "MinScore": 14450,
+        "MaxScore": 14625,
+        "AvgScore": 14609.25,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7014285714285715
+    },
+    {
+        "Round": 227,
+        "MinScore": 14500,
+        "MaxScore": 14628,
+        "AvgScore": 14617.76,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7028571428571427
+    },
+    {
+        "Round": 228,
+        "MinScore": 14450,
+        "MaxScore": 14625,
+        "AvgScore": 14609.25,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7014285714285714
+    },
+    {
+        "Round": 229,
+        "MinScore": 14300,
+        "MaxScore": 14616,
+        "AvgScore": 14578.08,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.6971428571428571
+    },
+    {
+        "Round": 230,
+        "MinScore": 14400,
+        "MaxScore": 14622,
+        "AvgScore": 14599.8,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7
+    },
+    {
+        "Round": 231,
+        "MinScore": 14550,
+        "MaxScore": 14631,
+        "AvgScore": 14625.33,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7042857142857142
+    },
+    {
+        "Round": 232,
+        "MinScore": 14637,
+        "MaxScore": 14650,
+        "AvgScore": 14637.65,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7071428571428571
+    },
+    {
+        "Round": 233,
+        "MinScore": 14646,
+        "MaxScore": 14800,
+        "AvgScore": 14649.08,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7114285714285714
+    },
+    {
+        "Round": 234,
+        "MinScore": 14649,
+        "MaxScore": 14850,
+        "AvgScore": 14651.01,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7128571428571427
+    },
+    {
+        "Round": 235,
+        "MinScore": 14649,
+        "MaxScore": 14850,
+        "AvgScore": 14651.01,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 2,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7128571428571427
+    },
+    {
+        "Round": 236,
+        "MinScore": 14652,
+        "MaxScore": 14652,
+        "AvgScore": 14652,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 1,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7142857142857143
+    },
+    {
+        "Round": 237,
+        "MinScore": 14652,
+        "MaxScore": 14652,
+        "AvgScore": 14652,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 1,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7142857142857143
+    },
+    {
+        "Round": 238,
+        "MinScore": 14652,
+        "MaxScore": 14652,
+        "AvgScore": 14652,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 1,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7142857142857143
+    },
+    {
+        "Round": 239,
+        "MinScore": 14652,
+        "MaxScore": 14652,
+        "AvgScore": 14652,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 1,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7142857142857143
+    },
+    {
+        "Round": 240,
+        "MinScore": 14652,
+        "MaxScore": 14652,
+        "AvgScore": 14652,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 1,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7142857142857143
+    },
+    {
+        "Round": 241,
+        "MinScore": 14652,
+        "MaxScore": 14652,
+        "AvgScore": 14652,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 1,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7142857142857143
+    },
+    {
+        "Round": 242,
+        "MinScore": 14652,
+        "MaxScore": 14652,
+        "AvgScore": 14652,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 1,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7142857142857143
+    },
+    {
+        "Round": 243,
+        "MinScore": 14652,
+        "MaxScore": 14652,
+        "AvgScore": 14652,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 1,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7142857142857143
+    },
+    {
+        "Round": 244,
+        "MinScore": 14652,
+        "MaxScore": 14652,
+        "AvgScore": 14652,
+        "PopulationSize": 100,
+        "NumUniqueStrategies": 1,
+        "TftScore": "-",
+        "AvgTftSimilarity": 0.7142857142857143
+    }
+]

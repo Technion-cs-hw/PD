@@ -1,0 +1,1881 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 14.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[     82520,       1873]
+NotebookOptionsPosition[     78708,       1801]
+NotebookOutlinePosition[     79163,       1819]
+CellTagsIndexPosition[     79120,       1816]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[" "], "Input",
+ CellChangeTimes->{
+  3.95924219633963*^9},ExpressionUUID->"41400a0e-f429-f847-b367-74f96baa666f"],
+
+Cell[CellGroupData[{
+
+Cell["Initialization cells", "Subsection",
+ InitializationCell->True,
+ CellChangeTimes->{{3.9542034504899*^9, 3.954203459610899*^9}, {
+  3.954203613875594*^9, 
+  3.954203615389646*^9}},ExpressionUUID->"65469001-a303-e94f-9da0-\
+9c2d76cfd3e4"],
+
+Cell["Delete all output cells", "Text",
+ InitializationCell->True,
+ CellChangeTimes->{{3.954205109011903*^9, 3.954205116560339*^9}, {
+  3.954205250246851*^9, 
+  3.954205250470587*^9}},ExpressionUUID->"9d4f3449-92eb-6040-acb9-\
+535de6bdd95d"],
+
+Cell[BoxData[
+ RowBox[{"FrontEndTokenExecute", "[", 
+  RowBox[{
+   RowBox[{"EvaluationNotebook", "[", "]"}], 
+   ",", "\"\<DeleteGeneratedCells\>\""}], "]"}]], "Input",
+ InitializationCell->True,
+ CellChangeTimes->{{3.9542050829388447`*^9, 3.954205134031953*^9}, {
+   3.954205186701441*^9, 3.954205222125903*^9}, {3.959242264365431*^9, 
+   3.959242265480797*^9}, 3.9605387826608315`*^9},
+ CellLabel->
+  "In[307]:=",ExpressionUUID->"a83cee83-050a-ba48-9ee6-ffc0c0b93fa9"],
+
+Cell["Delete all evaluation marks", "Text",
+ InitializationCell->True,
+ CellChangeTimes->{{3.954205242746811*^9, 
+  3.9542052597429657`*^9}},ExpressionUUID->"524e6a36-94ab-0148-a2e5-\
+f17d8c090fd6"],
+
+Cell[BoxData[
+ RowBox[{"FrontEndTokenExecute", "[", 
+  RowBox[{
+   RowBox[{"EvaluationNotebook", "[", "]"}], 
+   ",", "\"\<ClearEvaluationMarks\>\""}], "]"}]], "Input",
+ InitializationCell->True,
+ CellChangeTimes->{{3.9542050829388447`*^9, 3.954205134031953*^9}, {
+  3.954205186701441*^9, 3.954205222125903*^9}},
+ CellLabel->
+  "In[308]:=",ExpressionUUID->"0c623698-e0bb-b844-a764-fa359315c7fd"],
+
+Cell["Hide in/out names", "Text",
+ InitializationCell->True,
+ CellChangeTimes->{{3.869544783606409*^9, 
+  3.869544787059013*^9}},ExpressionUUID->"0ebc2d02-8240-334f-9f80-\
+acfa59c9e8f7"],
+
+Cell[BoxData[
+ RowBox[{"SetOptions", "[", 
+  RowBox[{
+   RowBox[{"EvaluationNotebook", "[", "]"}], ",", " ", 
+   RowBox[{"ShowCellLabel", " ", "->", " ", "False"}]}], "]"}]], "Input",
+ InitializationCell->True,
+ CellChangeTimes->{{3.868833690762176*^9, 3.868833692903914*^9}, {
+  3.86928130698547*^9, 3.869281324143798*^9}, {3.869487906307016*^9, 
+  3.869487911161791*^9}, {3.8710921044873238`*^9, 3.871092104998266*^9}, {
+  3.954203413312886*^9, 3.9542034135039682`*^9}, {3.95420348432942*^9, 
+  3.954203494486208*^9}, {3.9542035249068193`*^9, 3.954203585775977*^9}},
+ FontSize->14,
+ CellLabel->
+  "In[309]:=",ExpressionUUID->"565ab585-0a37-8247-82b4-f8c6574af163"],
+
+Cell["Make all output print in traditional mathematical form.", "Text",
+ InitializationCell->True,
+ CellChangeTimes->{{3.954195119299397*^9, 3.954195151352297*^9}, 
+   3.954203427793117*^9},ExpressionUUID->"b9e0faf9-c1f5-894e-bdaf-\
+8c32d5d3c987"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"$PrePrint", " ", "=", " ", "TraditionalForm"}]], "Input",
+ InitializationCell->True,
+ CellChangeTimes->{{3.953350326839175*^9, 3.95335035432251*^9}, 
+   3.9541951622171097`*^9},
+ CellLabel->
+  "In[310]:=",ExpressionUUID->"e0929050-5d71-dd4f-b12a-229f26e7acad"],
+
+Cell[BoxData[
+ FormBox["TraditionalForm", TraditionalForm]], "Output",
+ CellChangeTimes->{3.960542034816145*^9},
+ CellLabel->
+  "Out[310]=",ExpressionUUID->"a03c1ea6-617f-aa4e-8335-e9fb671658f3"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Prisoner\[CloseCurlyQuote]s Dilemma", "Section",
+ CellChangeTimes->{{3.957954279054903*^9, 3.957954345354658*^9}, {
+  3.9579546197923355`*^9, 
+  3.9579546204734535`*^9}},ExpressionUUID->"f44b9be8-9d74-6d48-a3e6-\
+494261c29bf9"],
+
+Cell[CellGroupData[{
+
+Cell["Strategies", "Subsection",
+ CellChangeTimes->{{3.9579546929298096`*^9, 
+  3.9579546971060734`*^9}},ExpressionUUID->"80e27795-ff01-144d-87a0-\
+f90f5295a1cc"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"generateTitForTatStrategy", "[", "memoryLength_", "]"}], " ", ":=",
+     " ", 
+    RowBox[{"Module", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"keys", ",", " ", "strat"}], "}"}], ",", "\n", "  ", 
+      RowBox[{"(*", " ", 
+       RowBox[{
+       "Generate", " ", "all", " ", "histories", " ", "of", " ", "length", " ",
+         "0", " ", "to", " ", "memoryLength"}], " ", "*)"}], "\n", "  ", 
+      RowBox[{
+       RowBox[{"keys", " ", "=", " ", 
+        RowBox[{"Flatten", "[", "\n", "    ", 
+         RowBox[{
+          RowBox[{"Table", "[", "\n", "      ", 
+           RowBox[{
+            RowBox[{"StringJoin", " ", "/@", " ", 
+             RowBox[{"Tuples", "[", 
+              RowBox[{
+               RowBox[{"{", 
+                RowBox[{"\"\<C\>\"", ",", " ", "\"\<D\>\""}], "}"}], ",", " ",
+                "k"}], "]"}]}], ",", "\n", "      ", 
+            RowBox[{"{", 
+             RowBox[{"k", ",", " ", "0", ",", " ", "memoryLength"}], "}"}]}], 
+           "\n", "    ", "]"}], ",", "\n", "    ", "1"}], "\n", "  ", "]"}]}],
+        ";", "\n", "  ", "\n", "  ", 
+       RowBox[{"(*", " ", 
+        RowBox[{
+         RowBox[{
+         "Assign", " ", "\"\<C\>\"", " ", "to", " ", "empty", " ", 
+          "history"}], ",", " ", 
+         RowBox[{"and", " ", "copy", " ", 
+          RowBox[{"opponent", "'"}], "s", " ", "last", " ", "move", " ", 
+          "otherwise"}]}], " ", "*)"}], "\n", "  ", 
+       RowBox[{"strat", " ", "=", " ", 
+        RowBox[{"Association", "[", "\n", "    ", 
+         RowBox[{"Table", "[", "\n", "      ", 
+          RowBox[{
+           RowBox[{"key", " ", "->", " ", 
+            RowBox[{"If", "[", 
+             RowBox[{
+              RowBox[{
+               RowBox[{"StringLength", "[", "key", "]"}], " ", "==", " ", 
+               "0"}], ",", " ", "\"\<C\>\"", ",", " ", 
+              RowBox[{"StringTake", "[", 
+               RowBox[{"key", ",", " ", 
+                RowBox[{"-", "1"}]}], "]"}]}], "]"}]}], ",", "\n", "      ", 
+           RowBox[{"{", 
+            RowBox[{"key", ",", " ", "keys"}], "}"}]}], "\n", "    ", "]"}], 
+         "\n", "  ", "]"}]}], ";", "\n", "  ", "\n", "  ", "strat"}]}], "\n", 
+     "]"}]}], ";"}], "\n"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"generateAlwaysCooperateStrategy", "[", "memoryLength_", "]"}], 
+    " ", ":=", " ", 
+    RowBox[{"Module", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"keys", ",", " ", "strat"}], "}"}], ",", "\n", "  ", 
+      RowBox[{
+       RowBox[{"keys", " ", "=", " ", 
+        RowBox[{"Flatten", "[", "\n", "    ", 
+         RowBox[{
+          RowBox[{"Table", "[", "\n", "      ", 
+           RowBox[{
+            RowBox[{"StringJoin", " ", "/@", " ", 
+             RowBox[{"Tuples", "[", 
+              RowBox[{
+               RowBox[{"{", 
+                RowBox[{"\"\<C\>\"", ",", " ", "\"\<D\>\""}], "}"}], ",", " ",
+                "k"}], "]"}]}], ",", "\n", "      ", 
+            RowBox[{"{", 
+             RowBox[{"k", ",", " ", "0", ",", " ", "memoryLength"}], "}"}]}], 
+           "\n", "    ", "]"}], ",", "\n", "    ", "1"}], "\n", "  ", "]"}]}],
+        ";", "\n", "  ", 
+       RowBox[{"strat", " ", "=", " ", 
+        RowBox[{"Association", "[", 
+         RowBox[{"Table", "[", 
+          RowBox[{
+           RowBox[{"key", " ", "->", " ", "\"\<C\>\""}], ",", " ", 
+           RowBox[{"{", 
+            RowBox[{"key", ",", " ", "keys"}], "}"}]}], "]"}], "]"}]}], ";", 
+       "\n", "  ", "strat"}]}], "\n", "]"}]}], ";"}], "\n"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"generateAlwaysDefectStrategy", "[", "memoryLength_", "]"}], " ", 
+    ":=", " ", 
+    RowBox[{"Module", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"keys", ",", " ", "strat"}], "}"}], ",", "\n", "  ", 
+      RowBox[{
+       RowBox[{"keys", " ", "=", " ", 
+        RowBox[{"Flatten", "[", "\n", "    ", 
+         RowBox[{
+          RowBox[{"Table", "[", "\n", "      ", 
+           RowBox[{
+            RowBox[{"StringJoin", " ", "/@", " ", 
+             RowBox[{"Tuples", "[", 
+              RowBox[{
+               RowBox[{"{", 
+                RowBox[{"\"\<C\>\"", ",", " ", "\"\<D\>\""}], "}"}], ",", " ",
+                "k"}], "]"}]}], ",", "\n", "      ", 
+            RowBox[{"{", 
+             RowBox[{"k", ",", " ", "0", ",", " ", "memoryLength"}], "}"}]}], 
+           "\n", "    ", "]"}], ",", "\n", "    ", "1"}], "\n", "  ", "]"}]}],
+        ";", "\n", "  ", 
+       RowBox[{"strat", " ", "=", " ", 
+        RowBox[{"Association", "[", 
+         RowBox[{"Table", "[", 
+          RowBox[{
+           RowBox[{"key", " ", "->", " ", "\"\<D\>\""}], ",", " ", 
+           RowBox[{"{", 
+            RowBox[{"key", ",", " ", "keys"}], "}"}]}], "]"}], "]"}]}], ";", 
+       "\n", "  ", "strat"}]}], "\n", "]"}]}], ";"}], "\n"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"generateTitForTwoTatsStrategy", "[", "memoryLength_", "]"}], " ",
+     ":=", " ", 
+    RowBox[{"Module", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"keys", ",", " ", "strat"}], "}"}], ",", "\n", "  ", 
+      RowBox[{
+       RowBox[{"keys", " ", "=", " ", 
+        RowBox[{"Flatten", "[", "\n", "    ", 
+         RowBox[{
+          RowBox[{"Table", "[", "\n", "      ", 
+           RowBox[{
+            RowBox[{"StringJoin", " ", "/@", " ", 
+             RowBox[{"Tuples", "[", 
+              RowBox[{
+               RowBox[{"{", 
+                RowBox[{"\"\<C\>\"", ",", " ", "\"\<D\>\""}], "}"}], ",", " ",
+                "k"}], "]"}]}], ",", "\n", "      ", 
+            RowBox[{"{", 
+             RowBox[{"k", ",", " ", "0", ",", " ", "memoryLength"}], "}"}]}], 
+           "\n", "    ", "]"}], ",", "\n", "    ", "1"}], "\n", "  ", "]"}]}],
+        ";", "\n", "  ", 
+       RowBox[{"strat", " ", "=", " ", 
+        RowBox[{"Association", "[", "\n", "    ", 
+         RowBox[{"Table", "[", "\n", "      ", 
+          RowBox[{
+           RowBox[{"key", " ", "->", " ", 
+            RowBox[{"If", "[", "\n", "        ", 
+             RowBox[{
+              RowBox[{
+               RowBox[{
+                RowBox[{"StringLength", "[", "key", "]"}], " ", "<", " ", 
+                "2"}], " ", "||", " ", 
+               RowBox[{
+                RowBox[{"StringTake", "[", 
+                 RowBox[{"key", ",", " ", 
+                  RowBox[{"-", "2"}]}], "]"}], " ", "=!=", 
+                " ", "\"\<DD\>\""}]}], ",", "\n", "        ", "\"\<C\>\"", ",",
+               " ", "\"\<D\>\""}], "\n", "      ", "]"}]}], ",", "\n", 
+           "      ", 
+           RowBox[{"{", 
+            RowBox[{"key", ",", " ", "keys"}], "}"}]}], "\n", "    ", "]"}], 
+         "\n", "  ", "]"}]}], ";", "\n", "  ", "strat"}]}], "\n", "]"}]}], 
+   ";"}], "\n", "\n", 
+  RowBox[{"(*", "Pavlov", "*)"}], "\n", "\n", 
+  RowBox[{"(*", "\n", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"generateGrimTriggerStrategy", "[", "memoryLength_", "]"}], " ", 
+     ":=", " ", 
+     RowBox[{"Module", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"keys", ",", " ", "strat"}], "}"}], ",", "\n", "  ", 
+       RowBox[{
+        RowBox[{"keys", " ", "=", " ", 
+         RowBox[{"Flatten", "[", "\n", "    ", 
+          RowBox[{
+           RowBox[{"Table", "[", "\n", "      ", 
+            RowBox[{
+             RowBox[{"StringJoin", " ", "/@", " ", 
+              RowBox[{"Tuples", "[", 
+               RowBox[{
+                RowBox[{"{", 
+                 RowBox[{"\"\<C\>\"", ",", " ", "\"\<D\>\""}], "}"}], ",", 
+                " ", "k"}], "]"}]}], ",", "\n", "      ", 
+             RowBox[{"{", 
+              RowBox[{"k", ",", " ", "0", ",", " ", "memoryLength"}], "}"}]}],
+             "\n", "    ", "]"}], ",", "\n", "    ", "1"}], "\n", "  ", 
+          "]"}]}], ";", "\n", "  ", 
+        RowBox[{"strat", " ", "=", " ", 
+         RowBox[{"Association", "[", "\n", "    ", 
+          RowBox[{"Table", "[", "\n", "      ", 
+           RowBox[{
+            RowBox[{"key", " ", "->", " ", 
+             RowBox[{"If", "[", 
+              RowBox[{
+               RowBox[{"StringContainsQ", "[", 
+                RowBox[{"key", ",", " ", "\"\<D\>\""}], "]"}], ",", 
+               " ", "\"\<D\>\"", ",", " ", "\"\<C\>\""}], "]"}]}], ",", "\n", 
+            "      ", 
+            RowBox[{"{", 
+             RowBox[{"key", ",", " ", "keys"}], "}"}]}], "\n", "    ", "]"}], 
+          "\n", "  ", "]"}]}], ";", "\n", "  ", "strat"}]}], "\n", "]"}]}], 
+    ";"}], "\n", "*)"}]}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{
+    "generateSuspiciousTitForTatStrategy", "[", "memoryLength_", "]"}], " ", ":=",
+     " ", 
+    RowBox[{"Module", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"keys", ",", " ", "strat"}], "}"}], ",", "\n", "  ", 
+      RowBox[{
+       RowBox[{"keys", " ", "=", " ", 
+        RowBox[{"Flatten", "[", "\n", "    ", 
+         RowBox[{
+          RowBox[{"Table", "[", "\n", "      ", 
+           RowBox[{
+            RowBox[{"StringJoin", " ", "/@", " ", 
+             RowBox[{"Tuples", "[", 
+              RowBox[{
+               RowBox[{"{", 
+                RowBox[{"\"\<C\>\"", ",", " ", "\"\<D\>\""}], "}"}], ",", " ",
+                "k"}], "]"}]}], ",", "\n", "      ", 
+            RowBox[{"{", 
+             RowBox[{"k", ",", " ", "0", ",", " ", "memoryLength"}], "}"}]}], 
+           "\n", "    ", "]"}], ",", "\n", "    ", "1"}], "\n", "  ", "]"}]}],
+        ";", "\n", "  ", 
+       RowBox[{"strat", " ", "=", " ", 
+        RowBox[{"Association", "[", "\n", "    ", 
+         RowBox[{"Table", "[", "\n", "      ", 
+          RowBox[{
+           RowBox[{"key", " ", "->", " ", 
+            RowBox[{"If", "[", 
+             RowBox[{
+              RowBox[{
+               RowBox[{"StringLength", "[", "key", "]"}], " ", "==", " ", 
+               "0"}], ",", " ", "\"\<D\>\"", ",", " ", 
+              RowBox[{"StringTake", "[", 
+               RowBox[{"key", ",", " ", 
+                RowBox[{"-", "1"}]}], "]"}]}], "]"}]}], ",", "\n", "      ", 
+           RowBox[{"{", 
+            RowBox[{"key", ",", " ", "keys"}], "}"}]}], "\n", "    ", "]"}], 
+         "\n", "  ", "]"}]}], ";", "\n", "  ", "strat"}]}], "\n", "]"}]}], 
+   ";"}], "\n"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"generateJossStrategy", "[", 
+     RowBox[{"memoryLength_", ",", " ", 
+      RowBox[{"defectKeysFraction_", ":", " ", "0.2"}]}], "]"}], " ", ":=", 
+    " ", 
+    RowBox[{"Module", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"keys", ",", " ", "strat", ",", " ", "defectKeys"}], "}"}], ",",
+       "\n", "  ", 
+      RowBox[{
+       RowBox[{"keys", " ", "=", " ", 
+        RowBox[{"Flatten", "[", "\n", "    ", 
+         RowBox[{
+          RowBox[{"Table", "[", "\n", "      ", 
+           RowBox[{
+            RowBox[{"StringJoin", " ", "/@", " ", 
+             RowBox[{"Tuples", "[", 
+              RowBox[{
+               RowBox[{"{", 
+                RowBox[{"\"\<C\>\"", ",", " ", "\"\<D\>\""}], "}"}], ",", " ",
+                "k"}], "]"}]}], ",", "\n", "      ", 
+            RowBox[{"{", 
+             RowBox[{"k", ",", " ", "0", ",", " ", "memoryLength"}], "}"}]}], 
+           "\n", "    ", "]"}], ",", "\n", "    ", "1"}], "\n", "  ", "]"}]}],
+        ";", "\n", "  ", 
+       RowBox[{"defectKeys", " ", "=", " ", 
+        RowBox[{"RandomSample", "[", 
+         RowBox[{
+          RowBox[{"Rest", "[", "keys", "]"}], ",", " ", 
+          RowBox[{"Floor", "[", 
+           RowBox[{
+            RowBox[{"Length", "[", "keys", "]"}], "*", "defectKeysFraction"}],
+            "]"}]}], "]"}]}], ";", "\n", "  ", 
+       RowBox[{"strat", " ", "=", " ", 
+        RowBox[{"Association", "[", "\n", "    ", 
+         RowBox[{"Table", "[", "\n", "      ", 
+          RowBox[{
+           RowBox[{"key", " ", "->", " ", 
+            RowBox[{"Which", "[", "\n", "        ", 
+             RowBox[{
+              RowBox[{
+               RowBox[{"StringLength", "[", "key", "]"}], " ", "==", " ", 
+               "0"}], ",", " ", "\"\<C\>\"", ",", "\n", "        ", 
+              RowBox[{"MemberQ", "[", 
+               RowBox[{"defectKeys", ",", " ", "key"}], "]"}], ",", 
+              " ", "\"\<D\>\"", ",", "\n", "        ", "True", ",", " ", 
+              RowBox[{"StringTake", "[", 
+               RowBox[{"key", ",", " ", 
+                RowBox[{"-", "1"}]}], "]"}]}], "\n", "      ", "]"}]}], ",", 
+           "\n", "      ", 
+           RowBox[{"{", 
+            RowBox[{"key", ",", " ", "keys"}], "}"}]}], "\n", "    ", "]"}], 
+         "\n", "  ", "]"}]}], ";", "\n", "  ", "strat"}]}], "\n", "]"}]}], 
+   ";"}], "\n", "\n", 
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"generateFriedmanStrategy", "[", "memoryLength_", "]"}], " ", ":=",
+      " ", 
+     RowBox[{"generateGrimTriggerStrategy", "[", "memoryLength", "]"}]}], 
+    ";"}], "*)"}], "\n"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"generateProberStrategy", "[", "memoryLength_", "]"}], " ", ":=", 
+    " ", 
+    RowBox[{"Module", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"keys", ",", " ", "strat"}], "}"}], ",", "\n", "  ", 
+      RowBox[{
+       RowBox[{"keys", " ", "=", " ", 
+        RowBox[{"Flatten", "[", "\n", "    ", 
+         RowBox[{
+          RowBox[{"Table", "[", "\n", "      ", 
+           RowBox[{
+            RowBox[{"StringJoin", " ", "/@", " ", 
+             RowBox[{"Tuples", "[", 
+              RowBox[{
+               RowBox[{"{", 
+                RowBox[{"\"\<C\>\"", ",", " ", "\"\<D\>\""}], "}"}], ",", " ",
+                "k"}], "]"}]}], ",", "\n", "      ", 
+            RowBox[{"{", 
+             RowBox[{"k", ",", " ", "0", ",", " ", "memoryLength"}], "}"}]}], 
+           "\n", "    ", "]"}], ",", "\n", "    ", "1"}], "\n", "  ", "]"}]}],
+        ";", "\n", "  ", 
+       RowBox[{"strat", " ", "=", " ", 
+        RowBox[{"Association", "[", "\n", "    ", 
+         RowBox[{"Table", "[", "\n", "      ", 
+          RowBox[{
+           RowBox[{"key", " ", "->", " ", 
+            RowBox[{"Which", "[", "\n", "        ", 
+             RowBox[{
+              RowBox[{
+               RowBox[{"StringLength", "[", "key", "]"}], " ", "==", " ", 
+               "0"}], ",", " ", "\"\<D\>\"", ",", "      ", 
+              RowBox[{"(*", " ", 
+               RowBox[{"move", " ", "1"}], " ", "*)"}], "\n", "        ", 
+              RowBox[{
+               RowBox[{"StringLength", "[", "key", "]"}], " ", "==", " ", 
+               "1"}], ",", " ", "\"\<C\>\"", ",", "      ", 
+              RowBox[{"(*", " ", 
+               RowBox[{"move", " ", "2"}], " ", "*)"}], "\n", "        ", 
+              RowBox[{
+               RowBox[{"StringLength", "[", "key", "]"}], " ", "==", " ", 
+               "2"}], ",", " ", "\"\<C\>\"", ",", "      ", 
+              RowBox[{"(*", " ", 
+               RowBox[{"move", " ", "3"}], " ", "*)"}], "\n", "        ", 
+              RowBox[{"!", 
+               RowBox[{"StringContainsQ", "[", 
+                RowBox[{
+                 RowBox[{"StringTake", "[", 
+                  RowBox[{"key", ",", " ", 
+                   RowBox[{"{", 
+                    RowBox[{"1", ",", " ", "2"}], "}"}]}], "]"}], ",", 
+                 " ", "\"\<D\>\""}], "]"}]}], ",", " ", "\"\<D\>\"", ",", 
+              "  ", 
+              RowBox[{"(*", " ", 
+               RowBox[{"retaliation", " ", "in", " ", "2", 
+                RowBox[{"nd", "/", "3"}], "rd", " ", "move"}], " ", "*)"}], 
+              "\n", "        ", "True", ",", " ", 
+              RowBox[{"StringTake", "[", 
+               RowBox[{"key", ",", " ", 
+                RowBox[{"-", "1"}]}], "]"}]}], "         ", 
+             RowBox[{"(*", " ", 
+              RowBox[{"fallback", " ", "to", " ", "TFT"}], " ", "*)"}], "\n", 
+             "      ", "]"}]}], ",", "\n", "      ", 
+           RowBox[{"{", 
+            RowBox[{"key", ",", " ", "keys"}], "}"}]}], "\n", "    ", "]"}], 
+         "\n", "  ", "]"}]}], ";", "\n", "  ", "strat"}]}], "\n", "]"}]}], 
+   ";"}], "\n"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"generateSoftMajorityStrategy", "[", "memoryLength_", "]"}], " ", 
+    ":=", " ", 
+    RowBox[{"Module", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"keys", ",", " ", "strat"}], "}"}], ",", "\n", "\t", 
+      RowBox[{
+       RowBox[{"keys", " ", "=", " ", 
+        RowBox[{"Flatten", "[", "\n", "\t    ", 
+         RowBox[{
+          RowBox[{"Table", "[", "\n", "\t      ", 
+           RowBox[{
+            RowBox[{"StringJoin", " ", "/@", " ", 
+             RowBox[{"Tuples", "[", 
+              RowBox[{
+               RowBox[{"{", 
+                RowBox[{"\"\<C\>\"", ",", " ", "\"\<D\>\""}], "}"}], ",", " ",
+                "k"}], "]"}]}], ",", "\n", "\t      ", 
+            RowBox[{"{", 
+             RowBox[{"k", ",", " ", "0", ",", " ", "memoryLength"}], "}"}]}], 
+           "\n", "\t    ", "]"}], ",", "\n", "\t    ", "1"}], "\n", "\t  ", 
+         "]"}]}], ";", "\n", "  ", 
+       RowBox[{"strat", " ", "=", " ", 
+        RowBox[{"Association", "[", "\n", "    ", 
+         RowBox[{"Table", "[", "\n", "      ", 
+          RowBox[{
+           RowBox[{"key", " ", "->", " ", 
+            RowBox[{"If", "[", "\n", "        ", 
+             RowBox[{
+              RowBox[{
+               RowBox[{"StringCount", "[", 
+                RowBox[{"key", ",", " ", "\"\<C\>\""}], "]"}], " ", ">=", " ", 
+               RowBox[{"Ceiling", "[", 
+                RowBox[{
+                 RowBox[{"StringLength", "[", "key", "]"}], "/", "2"}], 
+                "]"}]}], ",", "\n", "        ", "\"\<C\>\"", ",", 
+              " ", "\"\<D\>\""}], "\n", "      ", "]"}]}], ",", "\n", 
+           "      ", 
+           RowBox[{"{", 
+            RowBox[{"key", ",", " ", "keys"}], "}"}]}], "\n", "    ", "]"}], 
+         "\n", "  ", "]"}]}], ";", "\n", "  ", "strat"}]}], "\n", "]"}]}], 
+   ";"}], "\n"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"generateHardMajorityStrategy", "[", "memoryLength_", "]"}], " ", 
+    ":=", " ", 
+    RowBox[{"Module", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"keys", ",", " ", "strat"}], "}"}], ",", "\n", " ", 
+      RowBox[{
+       RowBox[{"keys", " ", "=", " ", 
+        RowBox[{"Flatten", "[", "\n", "\t    ", 
+         RowBox[{
+          RowBox[{"Table", "[", "\n", "\t      ", 
+           RowBox[{
+            RowBox[{"StringJoin", " ", "/@", " ", 
+             RowBox[{"Tuples", "[", 
+              RowBox[{
+               RowBox[{"{", 
+                RowBox[{"\"\<C\>\"", ",", " ", "\"\<D\>\""}], "}"}], ",", " ",
+                "k"}], "]"}]}], ",", "\n", "\t      ", 
+            RowBox[{"{", 
+             RowBox[{"k", ",", " ", "0", ",", " ", "memoryLength"}], "}"}]}], 
+           "\n", "\t    ", "]"}], ",", "\n", "\t    ", "1"}], "\n", "\t  ", 
+         "]"}]}], ";", "\n", "  ", 
+       RowBox[{"strat", " ", "=", " ", 
+        RowBox[{"Association", "[", "\n", "    ", 
+         RowBox[{"Table", "[", "\n", "      ", 
+          RowBox[{
+           RowBox[{"key", " ", "->", " ", 
+            RowBox[{"If", "[", "\n", "        ", 
+             RowBox[{
+              RowBox[{
+               RowBox[{"StringCount", "[", 
+                RowBox[{"key", ",", " ", "\"\<C\>\""}], "]"}], " ", ">", " ", 
+               RowBox[{"StringCount", "[", 
+                RowBox[{"key", ",", " ", "\"\<D\>\""}], "]"}]}], ",", "\n", 
+              "        ", "\"\<C\>\"", ",", " ", "\"\<D\>\""}], "\n", 
+             "      ", "]"}]}], ",", "\n", "      ", 
+           RowBox[{"{", 
+            RowBox[{"key", ",", " ", "keys"}], "}"}]}], "\n", "    ", "]"}], 
+         "\n", "  ", "]"}]}], ";", "\n", "  ", "strat"}]}], "\n", "]"}]}], 
+   ";"}], "\n"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"generateTesterStrategy", "[", "memoryLength_", "]"}], " ", ":=", 
+   " ", 
+   RowBox[{"Module", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"keys", ",", " ", "strat"}], "}"}], ",", "\n", "  ", 
+     RowBox[{
+      RowBox[{"keys", " ", "=", " ", 
+       RowBox[{"Flatten", "[", "\n", "    ", 
+        RowBox[{
+         RowBox[{"Table", "[", "\n", "      ", 
+          RowBox[{
+           RowBox[{"StringJoin", " ", "/@", " ", 
+            RowBox[{"Tuples", "[", 
+             RowBox[{
+              RowBox[{"{", 
+               RowBox[{"\"\<C\>\"", ",", " ", "\"\<D\>\""}], "}"}], ",", " ", 
+              "k"}], "]"}]}], ",", "\n", "      ", 
+           RowBox[{"{", 
+            RowBox[{"k", ",", " ", "0", ",", " ", "memoryLength"}], "}"}]}], 
+          "\n", "    ", "]"}], ",", " ", "1"}], "\n", "  ", "]"}]}], ";", 
+      "\n", "  ", 
+      RowBox[{"strat", " ", "=", " ", 
+       RowBox[{"Association", "[", "\n", "    ", 
+        RowBox[{"Table", "[", "\n", "      ", 
+         RowBox[{
+          RowBox[{"key", " ", "->", " ", 
+           RowBox[{"Which", "[", "\n", "        ", 
+            RowBox[{
+             RowBox[{"key", " ", "===", " ", "\"\<\>\""}], ",", 
+             " ", "\"\<D\>\"", ",", "\n", "        ", 
+             RowBox[{"key", " ", "===", " ", "\"\<C\>\""}], ",", 
+             " ", "\"\<D\>\"", ",", "\n", "        ", 
+             RowBox[{"key", " ", "===", " ", "\"\<CC\>\""}], ",", 
+             " ", "\"\<D\>\"", ",", "\n", "        ", 
+             RowBox[{"!", 
+              RowBox[{"StringContainsQ", "[", 
+               RowBox[{
+                RowBox[{"StringTake", "[", 
+                 RowBox[{"key", ",", " ", 
+                  RowBox[{"{", "1", "}"}]}], "]"}], ",", " ", "\"\<D\>\""}], 
+               "]"}]}], ",", " ", "\"\<D\>\"", ",", "  ", 
+             RowBox[{"(*", " ", 
+              RowBox[{"retaliation", " ", "in", " ", "2", 
+               RowBox[{"nd", "/", "3"}], "rd", " ", "move"}], " ", "*)"}], 
+             "\n", "        ", "True", ",", " ", 
+             RowBox[{"StringTake", "[", 
+              RowBox[{"key", ",", " ", 
+               RowBox[{"-", "1"}]}], "]"}]}], "         ", 
+            RowBox[{"(*", " ", 
+             RowBox[{"fallback", " ", "to", " ", "TFT"}], " ", "*)"}], "\n", 
+            "      ", "]"}]}], ",", "\n", "      ", 
+          RowBox[{"{", 
+           RowBox[{"key", ",", " ", "keys"}], "}"}]}], "\n", "    ", "]"}], 
+        "\n", "  ", "]"}]}], ";", "\n", "  ", "strat"}]}], "\n", "]"}]}], 
+  ";"}]}], "Code",
+ CellChangeTimes->{{3.9592466140864906`*^9, 3.9592466396172447`*^9}, {
+   3.9592467160175858`*^9, 3.9592467339107647`*^9}, {3.9602059358230133`*^9, 
+   3.960205978413973*^9}, {3.960206026519108*^9, 3.960206041727726*^9}, {
+   3.960206081080805*^9, 3.9602061051347466`*^9}, 3.960206143859993*^9, {
+   3.9602063455005226`*^9, 3.9602063487018986`*^9}, {3.9602063960438213`*^9, 
+   3.9602064547072296`*^9}, {3.960206492362507*^9, 3.96020655354751*^9}, {
+   3.96020658783955*^9, 3.9602065909899635`*^9}, {3.960206701273922*^9, 
+   3.960206702661913*^9}, {3.9602068677298946`*^9, 3.960206920419901*^9}, {
+   3.9602069624821568`*^9, 3.9602070063648663`*^9}, {3.9602070930141773`*^9, 
+   3.9602072548274994`*^9}, {3.960207287556034*^9, 3.9602073171553593`*^9}, {
+   3.960207388142065*^9, 3.960207400964161*^9}, {3.96020752570047*^9, 
+   3.9602075378075943`*^9}, 3.9602077526504784`*^9, 3.960207876736271*^9, {
+   3.960208122564556*^9, 3.9602081470598297`*^9}, {3.960208195466612*^9, 
+   3.960208196065277*^9}, 3.960208229803871*^9, {3.960208559787607*^9, 
+   3.9602085709923153`*^9}, {3.960208817699436*^9, 3.9602088794665337`*^9}, 
+   3.9602089525121117`*^9, {3.960276197423788*^9, 3.9602762010382137`*^9}},
+ CellLabel->"In[5]:=",ExpressionUUID->"b7d43543-e1ed-eb43-bf67-1c26d2ca4e0f"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"generateRandomStrategy", "[", "memoryLength_Integer", "]"}], ":=", 
+  RowBox[{"Module", "[", "\n", "\t", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"allHistories", ",", "decisions"}], "}"}], ",", "\n", "\t", 
+    RowBox[{
+     RowBox[{"allHistories", "=", 
+      RowBox[{"Flatten", "[", 
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{"StringJoin", "/@", 
+          RowBox[{"Tuples", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"\"\<C\>\"", ",", "\"\<D\>\""}], "}"}], ",", "i"}], 
+           "]"}]}], ",", 
+         RowBox[{"{", 
+          RowBox[{"i", ",", "0", ",", "memoryLength"}], "}"}]}], "]"}], 
+       "]"}]}], ";", "\n", "\t", 
+     RowBox[{"decisions", "=", 
+      RowBox[{"RandomChoice", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"\"\<C\>\"", ",", "\"\<D\>\""}], "}"}], ",", 
+        RowBox[{"Length", "[", "allHistories", "]"}]}], "]"}]}], ";", 
+     "\[IndentingNewLine]", "\t", 
+     RowBox[{"AssociationThread", "[", 
+      RowBox[{"allHistories", "->", "decisions"}], "]"}]}]}], "]"}]}]], "Code",
+ CellChangeTimes->{{3.9580457905723457`*^9, 3.9580459462427254`*^9}, {
+  3.9580459787707253`*^9, 3.9580460729510098`*^9}},
+ CellLabel->"In[51]:=",ExpressionUUID->"9536b885-bc1c-9d43-99b0-0861b953dcef"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{"Evaluate", " ", 
+     RowBox[{"strategy", ":", " ", 
+      RowBox[{
+      "Given", " ", "a", " ", "strategy", " ", "association", " ", "and", " ",
+        "opponent", " ", "history"}]}]}], ",", 
+    RowBox[{"return", " ", "next", " ", "move"}]}], "*)"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"evaluateStrategy", "[", 
+    RowBox[{"strategy_Association", ",", "opponentHistory_String", ",", 
+     RowBox[{"memoryLength_Integer", " ", ":", " ", "2"}]}], "]"}], ":=", 
+   RowBox[{"Module", "[", "\n", "\t", 
+    RowBox[{
+     RowBox[{"{", "key", "}"}], ",", "\n", "\t", 
+     RowBox[{
+      RowBox[{"key", "=", 
+       RowBox[{"If", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"StringLength", "[", "opponentHistory", "]"}], ">=", 
+          "memoryLength"}], ",", "\n", "\t", 
+         RowBox[{"StringTake", "[", 
+          RowBox[{"opponentHistory", ",", 
+           RowBox[{"-", "memoryLength"}]}], "]"}], ",", " ", 
+         "opponentHistory"}], "]"}]}], ";", "\[IndentingNewLine]", "\t", 
+      RowBox[{"strategy", "[", "key", "]"}]}]}], "]"}]}]}]], "Code",
+ CellChangeTimes->{
+  3.9579546287876377`*^9, 3.9579546660018673`*^9, 3.9579547804422092`*^9, {
+   3.957954825250925*^9, 3.957954848896824*^9}, {3.9579563936605606`*^9, 
+   3.957956407752495*^9}, {3.958046087253292*^9, 3.958046103115801*^9}, {
+   3.958047381892107*^9, 3.9580474131774025`*^9}, {3.9580474674324703`*^9, 
+   3.958047467900673*^9}},
+ CellLabel->"In[15]:=",ExpressionUUID->"c10f804f-eadd-fa41-8d9d-b52600f90f4f"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"strategySimilarity", "[", 
+    RowBox[{"strat1_", ",", " ", "strat2_"}], "]"}], " ", ":=", " ", 
+   RowBox[{"Module", "[", "\n", "  ", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"keys", ",", " ", "matches"}], "}"}], ",", "\n", "  ", 
+     RowBox[{
+      RowBox[{"keys", " ", "=", " ", 
+       RowBox[{"Keys", "[", "strat1", "]"}]}], ";", "  ", 
+      RowBox[{"(*", " ", 
+       RowBox[{
+       "assumes", " ", "both", " ", "have", " ", "same", " ", "keys"}], " ", 
+       "*)"}], "\n", "  ", 
+      RowBox[{"matches", " ", "=", " ", 
+       RowBox[{"Count", "[", 
+        RowBox[{
+         RowBox[{"Map", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"If", "[", 
+             RowBox[{
+              RowBox[{
+               RowBox[{"strat1", "[", "#", "]"}], " ", "===", " ", 
+               RowBox[{"strat2", "[", "#", "]"}]}], ",", " ", "1", ",", " ", 
+              "0"}], "]"}], " ", "&"}], ",", " ", "keys"}], "]"}], ",", " ", 
+         "1"}], "]"}]}], ";", "\n", "  ", 
+      RowBox[{"N", "[", 
+       RowBox[{"matches", "/", 
+        RowBox[{"Length", "[", "keys", "]"}]}], "]"}]}]}], "\n", "]"}]}], 
+  ";"}]], "Code",
+ CellChangeTimes->{{3.95925162891663*^9, 3.9592516406064415`*^9}, {
+  3.9592517428225384`*^9, 3.9592517752687683`*^9}, {3.9592518100801353`*^9, 
+  3.9592518262421627`*^9}},
+ CellLabel->"In[16]:=",ExpressionUUID->"95d45f3b-578f-bd49-b9ed-b7615a6b9399"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"MateStrategies", "[", 
+   RowBox[{
+   "parent1_Association", ",", " ", "parent2_Association", ",", " ", 
+    "score1_", ",", " ", "score2_"}], "]"}], " ", ":=", 
+  RowBox[{"Module", "[", "\n", "\t", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"total", ",", " ", "prob1"}], "}"}], ",", "\n", "\t", 
+    RowBox[{
+     RowBox[{"total", " ", "=", " ", 
+      RowBox[{"score1", " ", "+", " ", "score2"}]}], ";", "\n", "\t", 
+     RowBox[{"prob1", " ", "=", " ", 
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{"total", " ", "==", " ", "0"}], ",", " ", "0.5", ",", " ", 
+        RowBox[{"N", "[", 
+         RowBox[{"score1", "/", "total"}], "]"}]}], "]"}]}], ";", " ", 
+     RowBox[{"(*", 
+      RowBox[{"avoiding", " ", 
+       RowBox[{"0", "/", "0"}]}], "*)"}], "\n", "\n", "\t", 
+     RowBox[{"Association", " ", "@", " ", 
+      RowBox[{"Map", "[", "\n", "\t\t", 
+       RowBox[{
+        RowBox[{"Function", "[", 
+         RowBox[{"history", ",", "\n", "\t\t", 
+          RowBox[{"history", " ", "->", " ", 
+           RowBox[{"If", "[", "\n", "\t\t\t", 
+            RowBox[{
+             RowBox[{
+              RowBox[{"RandomReal", "[", "]"}], " ", "<", " ", "prob1"}], ",",
+              "\n", "\t\t\t", 
+             RowBox[{"parent1", "[", "history", "]"}], ",", "\n", "\t\t\t", 
+             RowBox[{"parent2", "[", "history", "]"}]}], "\n", "\t\t\t", 
+            "]"}]}]}], "\n", "\t\t", "]"}], ",", "\n", "    ", 
+        RowBox[{"Keys", "[", "parent1", "]"}]}], "\n", "  ", "]"}]}]}]}], 
+   "\n", " ", "]"}]}]], "Code",
+ CellChangeTimes->{{3.9579547887902393`*^9, 3.957954822353876*^9}, {
+   3.9579548586512012`*^9, 3.957954881263508*^9}, 3.95795494935573*^9, 
+   3.9579551080529003`*^9, {3.957955158617073*^9, 3.957955160776243*^9}, 
+   3.9579557970239067`*^9, {3.9579560396995373`*^9, 3.9579560617330456`*^9}, {
+   3.9579565012178516`*^9, 3.9579565733155117`*^9}},
+ CellLabel->"In[17]:=",ExpressionUUID->"164616cf-ff4c-e34c-b914-3fa01b340f2d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Players", "Subsection",
+ CellChangeTimes->{{3.957954732659666*^9, 3.957954733960703*^9}, 
+   3.9579549126312885`*^9, 3.958048304907543*^9, {3.9583836930907993`*^9, 
+   3.9583836943702374`*^9}},ExpressionUUID->"3e37adb7-c1f2-e048-89e9-\
+9b5e24c3c2a2"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"CreatePlayer", "[", 
+    RowBox[{"strategy_Association", ",", " ", 
+     RowBox[{"score_", ":", " ", "0"}], ",", " ", 
+     RowBox[{"rounds_", " ", ":", " ", "0"}]}], "]"}], " ", ":=", " ", 
+   RowBox[{"<|", "\n", "  ", 
+    RowBox[{
+     RowBox[{"\"\<ID\>\"", " ", "->", " ", 
+      RowBox[{"CreateUUID", "[", "]"}]}], ",", "\n", "  ", 
+     RowBox[{"\"\<Strategy\>\"", " ", "->", " ", "strategy"}], ",", "\n", 
+     "  ", 
+     RowBox[{"\"\<History\>\"", " ", "->", " ", 
+      RowBox[{"{", "}"}]}], ",", "\n", "  ", 
+     RowBox[{"\"\<OpponentHistory\>\"", " ", "->", " ", 
+      RowBox[{"{", "}"}]}], ",", "\n", "  ", 
+     RowBox[{"\"\<Score\>\"", " ", "->", " ", "score"}], ",", "\n", "  ", 
+     RowBox[{"\"\<RoundsSurvived\>\"", " ", "->", " ", "rounds"}]}], "\n", 
+    "|>"}]}], ";"}]], "Code",
+ CellChangeTimes->{
+  3.957954760958311*^9, 3.9579549142419415`*^9, {3.9579552283593864`*^9, 
+   3.9579552365302143`*^9}, 3.9579557035254326`*^9, 3.958122718130417*^9, 
+   3.958122751254158*^9, {3.9586577835319786`*^9, 3.958657800780245*^9}, {
+   3.9586579129803104`*^9, 3.9586579253152733`*^9}, 3.9586587638593845`*^9},
+ CellLabel->"In[18]:=",ExpressionUUID->"20fd8bf1-3693-2c4e-943a-4b96b4fdf76f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Simulation", "Subsection",
+ CellChangeTimes->{{3.9579549188877296`*^9, 
+  3.9579549211846313`*^9}},ExpressionUUID->"6c0801f7-3089-5a49-8598-\
+ad38d874a5db"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{
+    RowBox[{"--", 
+     RowBox[{"-", " ", 
+      RowBox[{"Configuration", " ", "--"}]}]}], "-"}], " ", "*)"}], "\n", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"pdPayoffMatrix", "=", 
+     RowBox[{"<|", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"\"\<C\>\"", ",", "\"\<C\>\""}], "}"}], "->", 
+        RowBox[{"{", 
+         RowBox[{"3", ",", "3"}], "}"}]}], ",", "\n", "\t\t\t\t", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"\"\<C\>\"", ",", "\"\<D\>\""}], "}"}], "->", 
+        RowBox[{"{", 
+         RowBox[{"0", ",", "5"}], "}"}]}], ",", "\n", "\t\t\t\t", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"\"\<D\>\"", ",", "\"\<C\>\""}], "}"}], "->", 
+        RowBox[{"{", 
+         RowBox[{"5", ",", "0"}], "}"}]}], ",", "\n", "\t\t\t\t", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"\"\<D\>\"", ",", "\"\<D\>\""}], "}"}], "->", 
+        RowBox[{"{", 
+         RowBox[{"1", ",", "1"}], "}"}]}]}], "|>"}]}], ";"}], "\n", "\n", 
+   RowBox[{"memoryLength", " ", "=", " ", "4"}], "\n", 
+   RowBox[{"originalPopulationSize", " ", "=", " ", "100"}], "\n", 
+   RowBox[{"generations", " ", "=", " ", "200"}], "\n", 
+   RowBox[{"threshold", " ", "=", " ", "0.005"}], "\n", 
+   RowBox[{"numRoundsPerMatch", " ", "=", " ", "400"}], "\n", 
+   RowBox[{"eliteRate", " ", "=", " ", "0"}], "\n", 
+   RowBox[{"strategyDiversityThreshold", " ", "=", " ", "0.01"}], "\n", 
+   RowBox[{"roundStatistics", " ", "=", " ", 
+    RowBox[{"{", "}"}]}]}]}]], "Code",
+ CellChangeTimes->{
+  3.9580475794867*^9, {3.958121583461561*^9, 3.9581215929798546`*^9}, 
+   3.9581220834288044`*^9, {3.9583942295179977`*^9, 3.958394259824251*^9}, {
+   3.9586583775399857`*^9, 3.9586583886251945`*^9}, {3.9586596524197006`*^9, 
+   3.958659652587591*^9}, {3.9586597369968185`*^9, 3.9586597720847054`*^9}, {
+   3.958659923195057*^9, 3.958659925807802*^9}, {3.958659999786455*^9, 
+   3.9586600012242126`*^9}, {3.9586601359812965`*^9, 3.95866016786438*^9}, {
+   3.95866044121723*^9, 3.958660448236273*^9}, {3.958660700346985*^9, 
+   3.9586607034292297`*^9}, {3.9586613189385204`*^9, 
+   3.9586613328126984`*^9}, {3.9586613744753094`*^9, 3.958661412708761*^9}, {
+   3.9586615165093555`*^9, 3.9586615484461517`*^9}, {3.959242641199009*^9, 
+   3.9592426421489525`*^9}, {3.9592434958489437`*^9, 3.959243510720768*^9}, {
+   3.9592437292661533`*^9, 3.959243735311058*^9}, {3.95924449882934*^9, 
+   3.9592445164799995`*^9}, {3.959244558318186*^9, 3.959244568067877*^9}, {
+   3.959244638468956*^9, 3.9592446389350185`*^9}, {3.959244845138899*^9, 
+   3.9592448953209476`*^9}, {3.9592454405706196`*^9, 3.959245440759577*^9}, {
+   3.9592460248929405`*^9, 3.959246025214512*^9}, {3.9592462005411415`*^9, 
+   3.959246202038109*^9}, {3.9592462639355106`*^9, 3.9592462722437897`*^9}, {
+   3.9592463265572624`*^9, 3.959246341153267*^9}, {3.9592464345507584`*^9, 
+   3.9592464591396217`*^9}, {3.9592487409063835`*^9, 3.9592487477681465`*^9}, 
+   3.9592498368415546`*^9, {3.959250388243376*^9, 3.9592503889326916`*^9}, {
+   3.959250425638193*^9, 3.959250429248129*^9}, {3.959250648889292*^9, 
+   3.9592506495314045`*^9}, {3.9592507559477463`*^9, 
+   3.9592507892925797`*^9}, {3.95925092392568*^9, 3.9592509250852127`*^9}, {
+   3.9592513148597126`*^9, 3.959251315005684*^9}, {3.9592529923787365`*^9, 
+   3.959253011126089*^9}, {3.9592530586263123`*^9, 3.9592530620979977`*^9}, 
+   3.9592674945985317`*^9, {3.9592682752203865`*^9, 3.9592682859632607`*^9}, {
+   3.959268478904915*^9, 3.959268479217695*^9}, {3.959269149022812*^9, 
+   3.9592691492012177`*^9}, {3.9592767811711636`*^9, 
+   3.9592767814188995`*^9}, {3.959359323109234*^9, 3.9593593245751896`*^9}, {
+   3.9593596145200653`*^9, 3.9593596535606556`*^9}, {3.95935972376775*^9, 
+   3.9593597312917957`*^9}, {3.95935976432423*^9, 3.9593597697932396`*^9}, {
+   3.9594154208144474`*^9, 3.959415436499758*^9}, {3.959415483943947*^9, 
+   3.959415517226223*^9}, {3.9594159821400757`*^9, 3.9594159827604656`*^9}, {
+   3.959416068114853*^9, 3.959416069234123*^9}, {3.959416117138628*^9, 
+   3.959416119224386*^9}, {3.9594164749823074`*^9, 3.959416475256916*^9}, {
+   3.9594172330914383`*^9, 3.9594172332745895`*^9}, 3.959417283485409*^9, {
+   3.959417368677334*^9, 3.959417369111006*^9}, {3.959532663134678*^9, 
+   3.959532663375738*^9}, {3.959532751830015*^9, 3.959532767671612*^9}, {
+   3.9595328176522465`*^9, 3.959532819419466*^9}, {3.9595329596186314`*^9, 
+   3.9595329619006233`*^9}, {3.960125749867378*^9, 3.9601257558914604`*^9}, {
+   3.960125973022106*^9, 3.9601259787059765`*^9}, {3.960126112977806*^9, 
+   3.960126113123001*^9}, {3.960127362677889*^9, 3.9601273720557575`*^9}, {
+   3.9601274988521957`*^9, 3.9601274993436604`*^9}, 3.9602763240425053`*^9, 
+   3.960276454412981*^9, {3.960276879991688*^9, 3.9602768805798435`*^9}, {
+   3.9602783086951237`*^9, 3.9602783268531647`*^9}, {3.9604900648998737`*^9, 
+   3.9604900796113663`*^9}, {3.9605361695247955`*^9, 3.960536173675104*^9}, {
+   3.960540907609356*^9, 3.960540924901188*^9}, {3.9605420103384495`*^9, 
+   3.960542020083338*^9}},
+ CellLabel->
+  "In[298]:=",ExpressionUUID->"debf5f69-8e46-9d41-96dc-444b73668546"],
+
+Cell[BoxData[
+ RowBox[{"(*", "\n", 
+  RowBox[{"(*", " ", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"--", 
+      RowBox[{"-", " ", "Initialize"}]}], " ", 
+     RowBox[{"Population", " ", "--"}]}], "-"}], " ", "*)"}], "\n", 
+  RowBox[{
+   RowBox[{"tftStrategy", " ", "=", " ", 
+    RowBox[{"generateTitForTatStrategy", "[", "memoryLength", "]"}]}], ";", 
+   "\n", 
+   RowBox[{"strategies", " ", "=", " ", 
+    RowBox[{"Prepend", "[", "\n", "  ", 
+     RowBox[{
+      RowBox[{"Table", "[", 
+       RowBox[{
+        RowBox[{"generateRandomStrategy", "[", "memoryLength", "]"}], ",", 
+        " ", 
+        RowBox[{"{", 
+         RowBox[{"originalPopulationSize", " ", "-", " ", "1"}], "}"}]}], 
+       "]"}], ",", "\n", "  ", "tftStrategy"}], "\n", "]"}]}], ";", "\n", 
+   "\n", 
+   RowBox[{"players", " ", "=", " ", 
+    RowBox[{"CreatePlayer", " ", "/@", " ", "strategies"}]}], ";", "\n", 
+   RowBox[{"players", " ", "=", " ", 
+    RowBox[{
+     RowBox[{"RandomSample", "[", "players", "]"}], "\n", 
+     RowBox[{"Length", "[", "players", "]"}]}]}]}], "\n", "*)"}]], "Code",
+ CellChangeTimes->{{3.9592518640554657`*^9, 3.959251880810175*^9}, {
+   3.959268365043524*^9, 3.9592684555271683`*^9}, {3.959268501273945*^9, 
+   3.9592685047681904`*^9}, {3.9592767567205048`*^9, 3.959276762437336*^9}, {
+   3.9602094977701473`*^9, 3.960209505182947*^9}, {3.960490101678957*^9, 
+   3.9604901063828506`*^9}, 3.960536184824047*^9, {3.9605363887473087`*^9, 
+   3.960536394220661*^9}},
+ CellLabel->"In[76]:=",ExpressionUUID->"0c7162a5-5cf1-ea43-b14a-73cb661c2bec"],
+
+Cell[BoxData[
+ RowBox[{"(*", "\n", 
+  RowBox[{
+   RowBox[{"playersRaw", " ", "=", " ", 
+    RowBox[{"Import", "[", 
+     RowBox[{"\"\<C:\\\\Users\\\\danil\\\\finalGeneration_100p_200g_200r.json\
+\>\"", ",", " ", "\"\<JSON\>\""}], "]"}]}], ";", "\n", 
+   RowBox[{"roundStatistics", " ", "=", " ", 
+    RowBox[{
+    "Import", 
+     "[", "\"\<C:\\\\Users\\\\danil\\\\roundStatistics_100p_200g_200r.json\>\"\
+", "]"}]}], ";", "\n", 
+   RowBox[{"players", " ", "=", " ", 
+    RowBox[{"Association", " ", "/@", " ", "playersRaw"}]}], ";", "\n", 
+   RowBox[{
+    RowBox[{"players", "[", 
+     RowBox[{"[", 
+      RowBox[{"All", ",", " ", "\"\<Strategy\>\""}], "]"}], "]"}], " ", "=", 
+    " ", 
+    RowBox[{"Association", " ", "/@", " ", 
+     RowBox[{"players", "[", 
+      RowBox[{"[", 
+       RowBox[{"All", ",", " ", "\"\<Strategy\>\""}], "]"}], "]"}]}]}], ";", 
+   "\n", "players", ";", "\n", "\n", 
+   RowBox[{"Length", "[", "players", "]"}]}], "\n", "*)"}]], "Code",
+ CellChangeTimes->{{3.9601270263648777`*^9, 3.960127099855276*^9}, {
+   3.960127310087969*^9, 3.9601273213226547`*^9}, {3.9601275062554455`*^9, 
+   3.9601275064014835`*^9}, {3.96012894781592*^9, 3.960128953112484*^9}, {
+   3.96012905723505*^9, 3.9601290912315655`*^9}, 3.960129176506975*^9, {
+   3.9601299372497177`*^9, 3.9601299416729336`*^9}, {3.9601300592870693`*^9, 
+   3.960130063066826*^9}, {3.9601302681505165`*^9, 3.9601302712181892`*^9}, {
+   3.9602756445111675`*^9, 3.960275649749769*^9}, {3.9602757109273224`*^9, 
+   3.9602757162628155`*^9}, {3.960275773308159*^9, 3.960275783087002*^9}, {
+   3.9605362030281544`*^9, 3.960536230282135*^9}, {3.960536361922882*^9, 
+   3.9605364016579094`*^9}, {3.9605408828316574`*^9, 
+   3.9605408879846*^9}},ExpressionUUID->"bce1cc57-df52-184b-b21b-\
+925dcc23bb48"],
+
+Cell[BoxData[
+ RowBox[{"(*", "\n", 
+  RowBox[{
+   RowBox[{"tftStrategy", " ", "=", " ", 
+    RowBox[{"generateTitForTatStrategy", "[", "memoryLength", "]"}]}], ";", 
+   "\n", 
+   RowBox[{"strategyGen", " ", "=", " ", 
+    RowBox[{"{", "\n", "  ", 
+     RowBox[{
+     "generateTitForTatStrategy", ",", "\n", "  ", 
+      "generateAlwaysDefectStrategy", ",", "\n", "  ", 
+      "generateAlwaysCooperateStrategy", ",", "\n", "  ", 
+      "generateTitForTwoTatsStrategy", ",", "\n", "  ", 
+      "generateSuspiciousTitForTatStrategy", ",", "\n", "  ", 
+      "generateJossStrategy", ",", "\n", "  ", "generateSoftMajorityStrategy",
+       ",", "\n", "  ", "generateHardMajorityStrategy", ",", "\n", "  ", 
+      "generateTesterStrategy", ",", "\n", "  ", "generateRandomStrategy"}], 
+     "\n", "}"}]}], ";", "\n", "\n", 
+   RowBox[{"strategies", " ", "=", " ", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"#", " ", "[", "memoryLength", "]"}], " ", "&"}], ")"}], " ", "/@",
+      " ", "strategyGen"}]}], ";", "\n", 
+   RowBox[{"players", " ", "=", " ", 
+    RowBox[{"CreatePlayer", " ", "/@", " ", "strategies"}]}], ";", "\n", 
+   RowBox[{"Length", "[", "players", "]"}]}], "\n", "*)"}]], "Code",
+ CellChangeTimes->{
+  3.960275655053339*^9, 3.9602756925836716`*^9, {3.9602758176134567`*^9, 
+   3.960275859040144*^9}, 3.9602759381650143`*^9, {3.960275969393444*^9, 
+   3.9602760055604286`*^9}, {3.9602760920692997`*^9, 
+   3.9602761228339252`*^9}, {3.960276239113205*^9, 3.960276250947567*^9}, {
+   3.9602763365604095`*^9, 3.960276337189226*^9}, {3.9604900893197002`*^9, 
+   3.960490096932398*^9}, {3.960540890724928*^9, 3.9605409032091064`*^9}, {
+   3.9605420019030743`*^9, 
+   3.9605420062477093`*^9}},ExpressionUUID->"66b01cd4-086f-c547-9c73-\
+c6c3a102c1d7"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"Monitor", "[", "\n", "  ", 
+    RowBox[{
+     RowBox[{"Do", "[", "\n", "\t", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"If", "[", "\n", "\t  ", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"Length", "[", 
+            RowBox[{"DeleteDuplicates", "[", 
+             RowBox[{"players", "[", 
+              RowBox[{"[", 
+               RowBox[{"All", ",", " ", "\"\<Strategy\>\""}], "]"}], "]"}], 
+             "]"}], "]"}], " ", "<=", " ", 
+           RowBox[{
+           "strategyDiversityThreshold", " ", "*", " ", 
+            "originalPopulationSize"}]}], ",", "\n", "\t  ", 
+          RowBox[{
+           RowBox[{"Print", "[", 
+            
+            RowBox[{"\"\<Diversity collapsed at generation \>\"", ",", " ", 
+             "gen", ",", " ", "\"\<: Too few unique strategies.\>\""}], "]"}],
+            ";", "\n", "\t  ", 
+           RowBox[{"Break", "[", "]"}], ";"}]}], "\n", "\t", "]"}], ";", "\n",
+         "\n", "    ", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Reset", " ", "scores"}], " ", "*)"}], "\n", "    ", 
+        RowBox[{"players", " ", "=", " ", 
+         RowBox[{"players", " ", "/.", " ", 
+          RowBox[{"p_Association", " ", ":>", " ", 
+           RowBox[{"ReplacePart", "[", 
+            RowBox[{"p", ",", " ", 
+             RowBox[{"\"\<Score\>\"", " ", "->", " ", "0"}]}], "]"}]}]}]}], ";",
+         "\n", "\n", "    ", 
+        RowBox[{"(*", " ", 
+         RowBox[{"All", "-", "vs", "-", 
+          RowBox[{"all", " ", "matches"}]}], " ", "*)"}], "\n", "    ", 
+        RowBox[{"(*", 
+         RowBox[{
+          RowBox[{"pairs", " ", "=", " ", 
+           RowBox[{"Subsets", "[", 
+            RowBox[{
+             RowBox[{"Range", "[", 
+              RowBox[{"Length", "[", "players", "]"}], "]"}], ",", " ", 
+             RowBox[{"{", "2", "}"}]}], "]"}]}], ";"}], "*)"}], "\n", "\t", 
+        RowBox[{"pairs", " ", "=", " ", 
+         RowBox[{"Select", "[", 
+          RowBox[{
+           RowBox[{"Subsets", "[", 
+            RowBox[{
+             RowBox[{"Range", "[", 
+              RowBox[{"Length", "[", "players", "]"}], "]"}], ",", " ", 
+             RowBox[{"{", "2", "}"}]}], "]"}], ",", " ", 
+           RowBox[{"True", " ", "&"}]}], "]"}]}], ";", "\n", "\t", 
+        RowBox[{"selfPairs", " ", "=", " ", 
+         RowBox[{"Table", "[", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"i", ",", " ", "i"}], "}"}], ",", " ", 
+           RowBox[{"{", 
+            RowBox[{"i", ",", " ", 
+             RowBox[{"Length", "[", "players", "]"}]}], "}"}]}], "]"}]}], ";",
+         "\n", "\t", 
+        RowBox[{"pairs", " ", "=", " ", 
+         RowBox[{"Join", "[", 
+          RowBox[{"pairs", ",", " ", "selfPairs"}], "]"}]}], ";", "\n", "\n", 
+        "    ", 
+        RowBox[{"totalGames", " ", "=", " ", 
+         RowBox[{"Length", "[", "pairs", "]"}]}], ";", "\n", "    ", 
+        RowBox[{"currentGame", " ", "=", " ", "0"}], ";", "\n", "\n", "    ", 
+        RowBox[{"Monitor", "[", "\n", "      ", 
+         RowBox[{
+          RowBox[{"Do", "[", "\n", "        ", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"Module", "[", 
+              RowBox[{
+               RowBox[{"{", 
+                RowBox[{
+                 RowBox[{"i1", " ", "=", " ", 
+                  RowBox[{"pair", "[", 
+                   RowBox[{"[", "1", "]"}], "]"}]}], ",", " ", 
+                 RowBox[{"i2", " ", "=", " ", 
+                  RowBox[{"pair", "[", 
+                   RowBox[{"[", "2", "]"}], "]"}]}], ",", " ", "move1", ",", 
+                 " ", "move2", ",", " ", "scoreDelta"}], "}"}], ",", "\n", 
+               "          ", 
+               RowBox[{
+                RowBox[{"Do", "[", "\n", "            ", 
+                 RowBox[{
+                  RowBox[{
+                   RowBox[{"move1", " ", "=", " ", 
+                    RowBox[{"evaluateStrategy", "[", 
+                    RowBox[{
+                    RowBox[{"players", "[", 
+                    RowBox[{"[", 
+                    RowBox[{"i1", ",", " ", "\"\<Strategy\>\""}], "]"}], 
+                    "]"}], ",", " ", 
+                    RowBox[{"StringJoin", "[", 
+                    RowBox[{"players", "[", 
+                    RowBox[{"[", 
+                    RowBox[{"i2", ",", " ", "\"\<History\>\""}], "]"}], "]"}],
+                     "]"}], ",", " ", "memoryLength"}], "]"}]}], ";", "\n", 
+                   "            ", 
+                   RowBox[{"move2", " ", "=", " ", 
+                    RowBox[{"evaluateStrategy", "[", 
+                    RowBox[{
+                    RowBox[{"players", "[", 
+                    RowBox[{"[", 
+                    RowBox[{"i2", ",", " ", "\"\<Strategy\>\""}], "]"}], 
+                    "]"}], ",", " ", 
+                    RowBox[{"StringJoin", "[", 
+                    RowBox[{"players", "[", 
+                    RowBox[{"[", 
+                    RowBox[{"i1", ",", " ", "\"\<History\>\""}], "]"}], "]"}],
+                     "]"}], ",", " ", "memoryLength"}], "]"}]}], ";", "\n", 
+                   "\n", "            ", 
+                   RowBox[{"scoreDelta", " ", "=", " ", 
+                    RowBox[{"pdPayoffMatrix", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"move1", ",", " ", "move2"}], "}"}], "]"}]}], ";",
+                    "\n", "\n", "            ", 
+                   RowBox[{
+                    RowBox[{"players", "[", 
+                    RowBox[{"[", 
+                    RowBox[{"i1", ",", " ", "\"\<Score\>\""}], "]"}], "]"}], 
+                    " ", "+=", " ", 
+                    RowBox[{"scoreDelta", "[", 
+                    RowBox[{"[", "1", "]"}], "]"}]}], ";", "\n", 
+                   "            ", 
+                   RowBox[{
+                    RowBox[{"players", "[", 
+                    RowBox[{"[", 
+                    RowBox[{"i2", ",", " ", "\"\<Score\>\""}], "]"}], "]"}], 
+                    " ", "+=", " ", 
+                    RowBox[{"scoreDelta", "[", 
+                    RowBox[{"[", "2", "]"}], "]"}]}], ";", "\n", "\n", 
+                   "            ", 
+                   RowBox[{
+                    RowBox[{"players", "[", 
+                    RowBox[{"[", 
+                    RowBox[{"i1", ",", " ", "\"\<History\>\""}], "]"}], "]"}],
+                     " ", "=", " ", 
+                    RowBox[{"Append", "[", 
+                    RowBox[{
+                    RowBox[{"players", "[", 
+                    RowBox[{"[", 
+                    RowBox[{"i1", ",", " ", "\"\<History\>\""}], "]"}], "]"}],
+                     ",", " ", "move1"}], "]"}]}], ";", "\n", "            ", 
+                   RowBox[{
+                    RowBox[{"players", "[", 
+                    RowBox[{"[", 
+                    RowBox[{"i1", ",", " ", "\"\<OpponentHistory\>\""}], 
+                    "]"}], "]"}], " ", "=", " ", 
+                    RowBox[{"Append", "[", 
+                    RowBox[{
+                    RowBox[{"players", "[", 
+                    RowBox[{"[", 
+                    RowBox[{"i1", ",", " ", "\"\<OpponentHistory\>\""}], 
+                    "]"}], "]"}], ",", " ", "move2"}], "]"}]}], ";", "\n", 
+                   "\n", "            ", 
+                   RowBox[{
+                    RowBox[{"players", "[", 
+                    RowBox[{"[", 
+                    RowBox[{"i2", ",", " ", "\"\<History\>\""}], "]"}], "]"}],
+                     " ", "=", " ", 
+                    RowBox[{"Append", "[", 
+                    RowBox[{
+                    RowBox[{"players", "[", 
+                    RowBox[{"[", 
+                    RowBox[{"i2", ",", " ", "\"\<History\>\""}], "]"}], "]"}],
+                     ",", " ", "move2"}], "]"}]}], ";", "\n", "            ", 
+                   RowBox[{
+                    RowBox[{"players", "[", 
+                    RowBox[{"[", 
+                    RowBox[{"i2", ",", " ", "\"\<OpponentHistory\>\""}], 
+                    "]"}], "]"}], " ", "=", " ", 
+                    RowBox[{"Append", "[", 
+                    RowBox[{
+                    RowBox[{"players", "[", 
+                    RowBox[{"[", 
+                    RowBox[{"i2", ",", " ", "\"\<OpponentHistory\>\""}], 
+                    "]"}], "]"}], ",", " ", "move1"}], "]"}]}], ";"}], "\n", 
+                  "            ", ",", "\n", "            ", 
+                  RowBox[{"{", "numRoundsPerMatch", "}"}]}], "\n", 
+                 "          ", "]"}], ";", "\n", "\n", "          ", 
+                RowBox[{"(*", " ", 
+                 RowBox[{
+                 "Reset", " ", "histories", " ", "after", " ", "match"}], " ",
+                  "*)"}], "\n", "          ", 
+                RowBox[{
+                 RowBox[{"players", "[", 
+                  RowBox[{"[", 
+                   RowBox[{"i1", ",", " ", "\"\<History\>\""}], "]"}], "]"}], 
+                 " ", "=", " ", 
+                 RowBox[{"{", "}"}]}], ";", "\n", "          ", 
+                RowBox[{
+                 RowBox[{"players", "[", 
+                  RowBox[{"[", 
+                   RowBox[{"i1", ",", " ", "\"\<OpponentHistory\>\""}], "]"}],
+                   "]"}], " ", "=", " ", 
+                 RowBox[{"{", "}"}]}], ";", "\n", "          ", 
+                RowBox[{
+                 RowBox[{"players", "[", 
+                  RowBox[{"[", 
+                   RowBox[{"i2", ",", " ", "\"\<History\>\""}], "]"}], "]"}], 
+                 " ", "=", " ", 
+                 RowBox[{"{", "}"}]}], ";", "\n", "          ", 
+                RowBox[{
+                 RowBox[{"players", "[", 
+                  RowBox[{"[", 
+                   RowBox[{"i2", ",", " ", "\"\<OpponentHistory\>\""}], "]"}],
+                   "]"}], " ", "=", " ", 
+                 RowBox[{"{", "}"}]}], ";"}]}], "\n", "        ", "]"}], ";", 
+             "\n", "        ", 
+             RowBox[{"currentGame", "++"}], ";"}], "\n", "        ", ",", 
+            "\n", "        ", 
+            RowBox[{"{", 
+             RowBox[{"pair", ",", " ", "pairs"}], "}"}]}], "\n", "      ", 
+           "]"}], ",", "\n", "      ", 
+          RowBox[{"Row", "[", 
+           RowBox[{"{", "\n", "        ", 
+            
+            RowBox[{"\"\<Game \>\"", ",", " ", "currentGame", ",", 
+             " ", "\"\</\>\"", ",", " ", "totalGames", ",", " ", "\"\<   \>\"",
+              ",", "\n", "        ", "\"\<Top Score: \>\"", ",", " ", 
+             RowBox[{"Max", "[", 
+              RowBox[{"players", "[", 
+               RowBox[{"[", 
+                RowBox[{"All", ",", " ", "\"\<Score\>\""}], "]"}], "]"}], 
+              "]"}], ",", " ", "\"\<   \>\"", ",", "\n", "        ", 
+             RowBox[{"ProgressIndicator", "[", 
+              RowBox[{"currentGame", ",", " ", 
+               RowBox[{"{", 
+                RowBox[{"0", ",", " ", "totalGames"}], "}"}]}], "]"}]}], "\n",
+             "      ", "}"}], "]"}]}], "\n", "    ", "]"}], ";", "\n", "\n", 
+        "    ", 
+        RowBox[{"(*", " ", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"--", 
+            RowBox[{"-", " ", "Selection"}]}], " ", "and", " ", 
+           RowBox[{"Reproduction", " ", "--"}]}], "-"}], " ", "*)"}], "\n", 
+        "    ", 
+        RowBox[{"eliteCount", " ", "=", " ", 
+         RowBox[{"Floor", "[", 
+          RowBox[{"eliteRate", " ", "*", " ", 
+           RowBox[{"Length", "[", "players", "]"}]}], "]"}]}], ";", "\n", 
+        "    ", 
+        RowBox[{"elites", " ", "=", " ", 
+         RowBox[{"TakeLargestBy", "[", 
+          RowBox[{"players", ",", " ", 
+           RowBox[{
+            RowBox[{"#", "[", "\"\<Score\>\"", "]"}], " ", "&"}], ",", " ", 
+           "eliteCount"}], "]"}]}], ";", "\n", "    ", 
+        RowBox[{"elites", " ", "=", " ", 
+         RowBox[{"elites", " ", "/.", " ", 
+          RowBox[{"p_Association", " ", ":>", " ", 
+           RowBox[{"ReplacePart", "[", 
+            RowBox[{"p", ",", " ", 
+             RowBox[{"\"\<RoundsSurvived\>\"", " ", "->", " ", 
+              RowBox[{
+               RowBox[{"p", "[", "\"\<RoundsSurvived\>\"", "]"}], " ", "+", 
+               " ", "1"}]}]}], "]"}]}]}]}], ";", "\n", "\n", "    ", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Score", "-", 
+          RowBox[{"based", " ", "sampling", " ", "for", " ", "parents"}]}], 
+         " ", "*)"}], "\n", "    ", 
+        RowBox[{"numChildren", " ", "=", " ", 
+         RowBox[{"originalPopulationSize", " ", "-", " ", "eliteCount"}]}], ";",
+         "\n", "    ", 
+        RowBox[{"rawScores", " ", "=", " ", 
+         RowBox[{"players", "[", 
+          RowBox[{"[", 
+           RowBox[{"All", ",", " ", "\"\<Score\>\""}], "]"}], "]"}]}], ";", 
+        "\n", "\t", 
+        RowBox[{"epsilon", " ", "=", " ", 
+         RowBox[{"0.01", " ", "*", " ", 
+          RowBox[{"Mean", "[", "rawScores", "]"}]}]}], ";", "\n", "\t", 
+        RowBox[{"scores", " ", "=", " ", 
+         RowBox[{"rawScores", " ", "+", " ", "epsilon"}]}], ";", "\n", "\t", 
+        RowBox[{"probabilities", " ", "=", " ", 
+         RowBox[{"scores", " ", "/", " ", 
+          RowBox[{"Total", "[", "scores", "]"}]}]}], ";", "\n", "\n", "\t", 
+        "\n", "    ", 
+        RowBox[{"parentIndices", " ", "=", " ", 
+         RowBox[{"RandomChoice", "[", 
+          RowBox[{
+           RowBox[{"probabilities", " ", "->", " ", 
+            RowBox[{"Range", "[", 
+             RowBox[{"Length", "[", "players", "]"}], "]"}]}], ",", " ", 
+           RowBox[{"2", " ", "*", " ", "numChildren"}]}], "]"}]}], ";", "\n", 
+        "    ", 
+        RowBox[{"parents", " ", "=", " ", 
+         RowBox[{"players", "[", 
+          RowBox[{"[", "parentIndices", "]"}], "]"}]}], ";", "\n", "    ", 
+        RowBox[{"matingPairs", " ", "=", " ", 
+         RowBox[{"Partition", "[", 
+          RowBox[{"parents", ",", " ", "2"}], "]"}]}], ";", "\n", "    ", 
+        "\n", "    ", "\n", "    ", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Generate", " ", "unique", " ", "mating", " ", "pairs"}], 
+         " ", "*)"}], "\n", "    ", 
+        RowBox[{"(*", "\n", "\t", 
+         RowBox[{
+          RowBox[{"matingPairs", " ", "=", " ", 
+           RowBox[{"{", "}"}]}], ";", "\n", "\t", 
+          RowBox[{"While", "[", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"Length", "[", "matingPairs", "]"}], " ", "<", " ", 
+             "numChildren"}], ",", "\n", "\t  ", 
+            RowBox[{
+             RowBox[{"Module", "[", 
+              RowBox[{
+               RowBox[{"{", 
+                RowBox[{"i1", ",", " ", "i2"}], "}"}], ",", "\n", "\t    ", 
+               RowBox[{
+                RowBox[{"i1", " ", "=", " ", 
+                 RowBox[{"RandomChoice", "[", 
+                  RowBox[{"probabilities", " ", "->", " ", 
+                   RowBox[{"Range", "[", 
+                    RowBox[{"Length", "[", "players", "]"}], "]"}]}], "]"}]}],
+                 ";", "\n", "\t    ", 
+                RowBox[{"i2", " ", "=", " ", "i1"}], ";", "\n", "\t    ", 
+                RowBox[{"While", "[", 
+                 RowBox[{
+                  RowBox[{"i2", " ", "==", " ", "i1"}], ",", "\n", "\t      ", 
+                  RowBox[{
+                   RowBox[{"i2", " ", "=", " ", 
+                    RowBox[{"RandomChoice", "[", 
+                    RowBox[{"probabilities", " ", "->", " ", 
+                    RowBox[{"Range", "[", 
+                    RowBox[{"Length", "[", "players", "]"}], "]"}]}], "]"}]}],
+                    ";"}]}], "\n", "\t    ", "]"}], ";", "\n", "\t    ", 
+                RowBox[{"AppendTo", "[", 
+                 RowBox[{"matingPairs", ",", " ", 
+                  RowBox[{"{", 
+                   RowBox[{
+                    RowBox[{"players", "[", 
+                    RowBox[{"[", "i1", "]"}], "]"}], ",", " ", 
+                    RowBox[{"players", "[", 
+                    RowBox[{"[", "i2", "]"}], "]"}]}], "}"}]}], "]"}], 
+                ";"}]}], "\n", "\t  ", "]"}], ";"}]}], "\n", "\t", "]"}], 
+          ";"}], "\n", "\t", "*)"}], "\n", "\t", "\n", "    ", 
+        RowBox[{"children", " ", "=", " ", 
+         RowBox[{"Table", "[", "\n", "      ", 
+          RowBox[{
+           RowBox[{"Module", "[", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{
+               RowBox[{"p1", " ", "=", " ", 
+                RowBox[{"pair", "[", 
+                 RowBox[{"[", "1", "]"}], "]"}]}], ",", " ", 
+               RowBox[{"p2", " ", "=", " ", 
+                RowBox[{"pair", "[", 
+                 RowBox[{"[", "2", "]"}], "]"}]}], ",", " ", "strat"}], "}"}],
+              ",", "\n", "        ", 
+             RowBox[{
+              RowBox[{"strat", " ", "=", " ", 
+               RowBox[{"MateStrategies", "[", 
+                RowBox[{
+                 RowBox[{"p1", "[", "\"\<Strategy\>\"", "]"}], ",", " ", 
+                 RowBox[{"p2", "[", "\"\<Strategy\>\"", "]"}], ",", " ", 
+                 RowBox[{"p1", "[", "\"\<Score\>\"", "]"}], ",", " ", 
+                 RowBox[{"p2", "[", "\"\<Score\>\"", "]"}]}], "]"}]}], ";", 
+              "\n", "        ", 
+              RowBox[{"CreatePlayer", "[", "strat", "]"}]}]}], "\n", "      ",
+             "]"}], ",", "\n", "      ", 
+           RowBox[{"{", 
+            RowBox[{"pair", ",", " ", "matingPairs"}], "}"}]}], "\n", "    ", 
+          "]"}]}], ";", "\n", "\n", "    ", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Record", " ", "statistics"}], " ", "*)"}], "\n", "    ", 
+        RowBox[{"AppendTo", "[", 
+         RowBox[{"roundStatistics", ",", " ", 
+          RowBox[{"<|", "\n", "      ", 
+           RowBox[{
+            RowBox[{"\"\<Round\>\"", " ", "->", " ", "gen"}], ",", "\n", 
+            "      ", 
+            RowBox[{"\"\<MinScore\>\"", " ", "->", " ", 
+             RowBox[{"Min", "[", 
+              RowBox[{"players", "[", 
+               RowBox[{"[", 
+                RowBox[{"All", ",", " ", "\"\<Score\>\""}], "]"}], "]"}], 
+              "]"}]}], ",", "\n", "      ", 
+            RowBox[{"\"\<MaxScore\>\"", " ", "->", " ", 
+             RowBox[{"Max", "[", 
+              RowBox[{"players", "[", 
+               RowBox[{"[", 
+                RowBox[{"All", ",", " ", "\"\<Score\>\""}], "]"}], "]"}], 
+              "]"}]}], ",", "\n", "      ", 
+            RowBox[{"\"\<AvgScore\>\"", " ", "->", " ", 
+             RowBox[{"Mean", "[", 
+              RowBox[{"players", "[", 
+               RowBox[{"[", 
+                RowBox[{"All", ",", " ", "\"\<Score\>\""}], "]"}], "]"}], 
+              "]"}]}], ",", "\n", "      ", 
+            RowBox[{"\"\<PopulationSize\>\"", " ", "->", " ", 
+             RowBox[{"Length", "[", "players", "]"}]}], ",", "\n", "      ", 
+            RowBox[{"\"\<NumUniqueStrategies\>\"", " ", "->", " ", 
+             RowBox[{"Length", "@", 
+              RowBox[{"DeleteDuplicates", "[", 
+               RowBox[{"players", "[", 
+                RowBox[{"[", 
+                 RowBox[{"All", ",", " ", "\"\<Strategy\>\""}], "]"}], "]"}], 
+               "]"}]}]}], ",", "\n", "      ", 
+            RowBox[{"\"\<TftScore\>\"", " ", "->", " ", 
+             RowBox[{"If", "[", "\n", "        ", 
+              RowBox[{
+               RowBox[{"MemberQ", "[", 
+                RowBox[{
+                 RowBox[{"players", "[", 
+                  RowBox[{"[", 
+                   RowBox[{"All", ",", " ", "\"\<Strategy\>\""}], "]"}], 
+                  "]"}], ",", " ", "tftStrategy"}], "]"}], ",", "\n", 
+               "        ", 
+               RowBox[{
+                RowBox[{"tft", " ", "=", " ", 
+                 RowBox[{"SelectFirst", "[", 
+                  RowBox[{"players", ",", " ", 
+                   RowBox[{
+                    RowBox[{
+                    RowBox[{"#", "[", "\"\<Strategy\>\"", "]"}], " ", "==", 
+                    " ", "tftStrategy"}], " ", "&"}]}], "]"}]}], ";", "\n", 
+                "        ", 
+                RowBox[{"tft", "[", "\"\<Score\>\"", "]"}]}], ",", "\n", 
+               "        ", "\"\<-\>\""}], "\n", "      ", "]"}]}], ",", "\n", 
+            "      ", 
+            RowBox[{"\"\<AvgTftSimilarity\>\"", " ", "->", " ", 
+             RowBox[{"Mean", "[", 
+              RowBox[{
+               RowBox[{
+                RowBox[{"strategySimilarity", "[", 
+                 RowBox[{
+                  RowBox[{"#", "[", "\"\<Strategy\>\"", "]"}], ",", " ", 
+                  "tftStrategy"}], "]"}], " ", "&"}], " ", "/@", " ", 
+               "players"}], "]"}]}]}], "\n", "    ", "|>"}]}], "]"}], ";", 
+        "\n", "\t", "\n", "\t", 
+        RowBox[{"(*", " ", 
+         RowBox[{"New", " ", "generation"}], " ", "*)"}], "\n", "    ", 
+        RowBox[{"players", " ", "=", " ", 
+         RowBox[{"Join", "[", 
+          RowBox[{"elites", ",", " ", "children"}], "]"}]}], ";"}], "\n", 
+       "    ", ",", "\n", "    ", 
+       RowBox[{"{", 
+        RowBox[{"gen", ",", " ", "1", ",", " ", "generations"}], "}"}]}], 
+      "\n", "  ", "]"}], ",", "\n", "  ", 
+     RowBox[{"Row", "[", 
+      RowBox[{"{", "\n", "    ", 
+       RowBox[{"\"\<Generation: \>\"", ",", " ", "gen", ",", " ", "\"\</\>\"",
+         ",", " ", "generations", ",", "\n", 
+        "    ", "\"\< NumUniqueStrategies: \>\"", ",", " ", 
+        RowBox[{"Length", "@", 
+         RowBox[{"DeleteDuplicates", "[", 
+          RowBox[{"players", "[", 
+           RowBox[{"[", 
+            RowBox[{"All", ",", " ", "\"\<Strategy\>\""}], "]"}], "]"}], 
+          "]"}]}], ",", "\n", "    ", "\"\< TftSimilarity: \>\"", ",", " ", 
+        RowBox[{"Mean", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"strategySimilarity", "[", 
+            RowBox[{
+             RowBox[{"#", "[", "\"\<Strategy\>\"", "]"}], ",", " ", 
+             "tftStrategy"}], "]"}], " ", "&"}], " ", "/@", " ", "players"}], 
+         "]"}], ",", "\n", "    ", 
+        RowBox[{"ProgressIndicator", "[", 
+         RowBox[{"gen", ",", " ", 
+          RowBox[{"{", 
+           RowBox[{"1", ",", " ", "generations"}], "}"}]}], "]"}]}], "\n", 
+       "  ", "}"}], "]"}]}], "\n", "]"}], ";"}], "\n", "\n", 
+  RowBox[{"(*", " ", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"--", 
+      RowBox[{"-", " ", "Export"}]}], " ", 
+     RowBox[{"Results", " ", "--"}]}], "-"}], " ", "*)"}]}], "\n", 
+ RowBox[{
+  RowBox[{"finalPlayerCount", " ", "=", " ", 
+   RowBox[{"Length", "[", "players", "]"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"filenameSuffix", " ", "=", " ", 
+    RowBox[{
+     RowBox[{"ToString", "[", "finalPlayerCount", "]"}], " ", "<>", 
+     " ", "\"\<p_\>\"", " ", "<>", " ", 
+     RowBox[{"ToString", "[", "generations", "]"}], " ", "<>", 
+     " ", "\"\<g_\>\"", " ", "<>", " ", 
+     RowBox[{"ToString", "[", "numRoundsPerMatch", "]"}], " ", "<>", 
+     " ", "\"\<r\>\""}]}], ";"}], "\n"}], "\n", 
+ RowBox[{
+  RowBox[{"Export", "[", 
+   RowBox[{
+    RowBox[{"\"\<finalGeneration_\>\"", " ", "<>", " ", "filenameSuffix", " ",
+      "<>", " ", "\"\<.json\>\""}], ",", " ", "players"}], "]"}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"Export", "[", 
+   RowBox[{
+    RowBox[{"\"\<roundStatistics_\>\"", " ", "<>", " ", "filenameSuffix", " ",
+      "<>", " ", "\"\<.json\>\""}], ",", " ", "roundStatistics"}], "]"}], 
+  ";"}]}], "Code",
+ InitializationCell->True,
+ CellChangeTimes->{
+  3.959414980973652*^9, {3.95941505443046*^9, 3.9594150749021416`*^9}, {
+   3.959415449892315*^9, 3.9594154916486893`*^9}, {3.9594155225023975`*^9, 
+   3.959415525009817*^9}, {3.959415844255991*^9, 3.959415853104124*^9}, {
+   3.959415884307728*^9, 3.959415945360281*^9}, {3.95941604981225*^9, 
+   3.9594160868466988`*^9}, 3.9594161435618305`*^9, {3.9594161806889114`*^9, 
+   3.959416183722534*^9}, {3.9594162872884674`*^9, 3.959416322280369*^9}, {
+   3.9594164603050632`*^9, 3.959416468414871*^9}, {3.959416510547903*^9, 
+   3.9594165107879105`*^9}, {3.959416563559456*^9, 3.9594165960913334`*^9}, {
+   3.9594167630676537`*^9, 3.9594167716628685`*^9}, {3.9594168669957733`*^9, 
+   3.9594168951419277`*^9}, {3.9594169494208508`*^9, 
+   3.9594169505365353`*^9}, {3.9594171525842953`*^9, 
+   3.9594171582282257`*^9}, {3.9594172020781193`*^9, 3.959417207431198*^9}, 
+   3.9594173828002663`*^9, {3.9595325252830334`*^9, 3.9595325602304344`*^9}, {
+   3.9595326152956104`*^9, 3.9595326201867867`*^9}, {3.959532653684681*^9, 
+   3.9595326870262413`*^9}, {3.9595327220969696`*^9, 
+   3.9595327264890404`*^9}, {3.9595328372053757`*^9, 
+   3.9595328391845036`*^9}, {3.959532971883253*^9, 3.959533009056999*^9}, {
+   3.9595330469811287`*^9, 3.9595330471297913`*^9}, {3.9601256973941746`*^9, 
+   3.9601257200117474`*^9}, {3.9601259394044304`*^9, 
+   3.9601259412424088`*^9}, {3.960126030084387*^9, 3.960126104047245*^9}, {
+   3.960127502758398*^9, 3.96012750382489*^9}, {3.960130072103613*^9, 
+   3.960130077643877*^9}, {3.960276368289953*^9, 3.9602763795135326`*^9}, 
+   3.960276412938097*^9, {3.960276822104698*^9, 3.9602768269755096`*^9}, {
+   3.960276903114258*^9, 3.9602769147392654`*^9}, {3.9602769813764324`*^9, 
+   3.9602769868160954`*^9}, {3.960277022936674*^9, 3.960277066530365*^9}, {
+   3.9602773622071114`*^9, 3.960277390059864*^9}, 3.9602774454039173`*^9, {
+   3.9604901280340366`*^9, 3.9604901409057655`*^9}},
+ CellLabel->
+  "In[281]:=",ExpressionUUID->"44d082f3-2194-484e-a151-a991ff64688c"],
+
+Cell[CellGroupData[{
+
+Cell["Results", "Subsubsection",
+ CellChangeTimes->{{3.9605364624428024`*^9, 
+  3.9605364637811756`*^9}},ExpressionUUID->"92360e82-2818-7943-9aad-\
+15220b24fff3"],
+
+Cell[BoxData[
+ RowBox[{"(*", "\n", 
+  RowBox[{
+   RowBox[{"data", " ", "=", " ", 
+    RowBox[{"(*", 
+     RowBox[{
+     "insert", " ", "path", " ", "to", " ", "roundStatistics", " ", "json", " ",
+       "file"}], "*)"}], "\n", 
+    RowBox[{"rounds", " ", "=", " ", 
+     RowBox[{"\"\<Round\>\"", " ", "/.", " ", "data"}]}]}], ";", "\n", 
+   RowBox[{"avgScores", " ", "=", " ", 
+    RowBox[{"\"\<AvgScore\>\"", " ", "/.", " ", "data"}]}], ";", "\n", 
+   RowBox[{"minScores", " ", "=", " ", 
+    RowBox[{"\"\<MinScore\>\"", " ", "/.", " ", "data"}]}], ";", "\n", 
+   RowBox[{"maxScores", " ", "=", " ", 
+    RowBox[{"\"\<MaxScore\>\"", " ", "/.", " ", "data"}]}], ";", "\n", 
+   RowBox[{"avgTftSims", " ", "=", " ", 
+    RowBox[{"\"\<AvgTftSimilarity\>\"", " ", "/.", " ", "data"}]}], ";", "\n", 
+   RowBox[{"tftScores", " ", "=", " ", 
+    RowBox[{"\"\<TftScore\>\"", " ", "/.", " ", "data"}]}], ";", "\n", 
+   RowBox[{"uniqueStrats", " ", "=", " ", 
+    RowBox[{"\"\<NumUniqueStrategies\>\"", " ", "/.", " ", "data"}]}], ";", 
+   "\n", "\n", 
+   RowBox[{
+    RowBox[{"ListLinePlot", "[", "\n", "    ", 
+     RowBox[{"avgScores", ",", "\n", "    ", 
+      RowBox[{"PlotRange", " ", "->", " ", "All"}], ",", "\n", "    ", 
+      RowBox[{
+      "PlotLabel", " ", "->", " ", "\"\<Average Score per Generation\>\""}], ",",
+       "\n", "    ", 
+      RowBox[{"AxesLabel", " ", "->", " ", 
+       RowBox[{"{", 
+        RowBox[{"\"\<Generation\>\"", ",", " ", "\"\<Average Score\>\""}], 
+        "}"}]}], ",", "\n", "    ", 
+      RowBox[{"PlotStyle", " ", "->", " ", "Blue"}], ",", "\n", "    ", 
+      RowBox[{"ImageSize", " ", "->", " ", "Large"}]}], "\n", "]"}], "\n", "\n", 
+    RowBox[{"ListLinePlot", "[", "\n", "    ", 
+     RowBox[{"avgTftSims", ",", "\n", "    ", 
+      RowBox[{"PlotRange", " ", "->", " ", 
+       RowBox[{"{", 
+        RowBox[{"0", ",", " ", "1"}], "}"}]}], ",", "\n", "    ", 
+      RowBox[{
+      "PlotLabel", " ", "->", 
+       " ", "\"\<Average Tit-for-Tat Similarity per Generation\>\""}], ",", 
+      "\n", "    ", 
+      RowBox[{"AxesLabel", " ", "->", " ", 
+       RowBox[{"{", 
+        RowBox[{"\"\<Generation\>\"", ",", " ", "\"\<Similarity\>\""}], 
+        "}"}]}], ",", "\n", "    ", 
+      RowBox[{"PlotStyle", " ", "->", " ", "Red"}], ",", "\n", "    ", 
+      RowBox[{"ImageSize", " ", "->", " ", "Large"}]}], "\n", "]"}], "\n", "\n", 
+    RowBox[{"ListLinePlot", "[", "\n", "    ", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"minScores", ",", " ", "avgScores", ",", " ", "maxScores"}], 
+       "}"}], ",", "\n", "    ", 
+      RowBox[{"PlotLegends", " ", "->", " ", 
+       RowBox[{"{", 
+        RowBox[{"\"\<Min Score\>\"", ",", " ", "\"\<Avg Score\>\"", ",", 
+         " ", "\"\<Max Score\>\""}], "}"}]}], ",", "\n", "    ", 
+      RowBox[{
+      "PlotLabel", " ", "->", 
+       " ", "\"\<Score Distribution per Generation\>\""}], ",", "\n", "    ", 
+      RowBox[{"AxesLabel", " ", "->", " ", 
+       RowBox[{"{", 
+        RowBox[{"\"\<Generation\>\"", ",", " ", "\"\<Score\>\""}], "}"}]}], ",",
+       "\n", "    ", 
+      RowBox[{"PlotStyle", " ", "->", " ", 
+       RowBox[{"{", 
+        RowBox[{"Gray", ",", " ", "Blue", ",", " ", "Black"}], "}"}]}], ",", 
+      "\n", "    ", 
+      RowBox[{"ImageSize", " ", "->", " ", "Large"}]}], "\n", "]"}], "\n", "\n", 
+    RowBox[{"ListLinePlot", "[", "\n", "    ", 
+     RowBox[{"tftScores", ",", "\n", "    ", 
+      RowBox[{
+      "PlotLabel", " ", "->", 
+       " ", "\"\<Tit-for-Tat Score per Generation\>\""}], ",", "\n", "    ", 
+      RowBox[{"AxesLabel", " ", "->", " ", 
+       RowBox[{"{", 
+        RowBox[{"\"\<Generation\>\"", ",", " ", "\"\<TFT Score\>\""}], 
+        "}"}]}], ",", "\n", "    ", 
+      RowBox[{"PlotStyle", " ", "->", " ", "Purple"}], ",", "\n", "    ", 
+      RowBox[{"ImageSize", " ", "->", " ", "Large"}]}], "\n", "]"}]}]}], "\n",
+   "*)"}]], "Code",
+ CellChangeTimes->{
+  3.960538764101019*^9, {3.9605388092630253`*^9, 3.960538828626301*^9}, {
+   3.9605388744018726`*^9, 3.960538877453327*^9}, {3.9605389988039036`*^9, 
+   3.960539026978716*^9}, {3.960539993198534*^9, 3.960539999997715*^9}, {
+   3.960540190586439*^9, 3.9605402057511654`*^9}, {3.9605405094269657`*^9, 
+   3.9605405230492764`*^9}, {3.9605406078738556`*^9, 3.960540607996582*^9}, {
+   3.960540952327978*^9, 3.960540959000025*^9}, {3.9605419501916714`*^9, 
+   3.960541993800911*^9}},ExpressionUUID->"fa245988-d946-a14b-bec3-\
+f783ea24bcf0"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Playground", "Subsubsection",
+ CellChangeTimes->{{3.958393298496132*^9, 
+  3.9583933214365864`*^9}},ExpressionUUID->"e6a9ee08-be9d-7e46-9329-\
+2219d4c06722"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"--", 
+      RowBox[{"-", " ", "Define"}]}], " ", "Parent", " ", 
+     RowBox[{"Strategies", " ", "--"}]}], "-"}], " ", "*)"}], "\n", 
+  RowBox[{
+   RowBox[{"s1", " ", "=", " ", 
+    RowBox[{"generateRandomStrategy", "[", "memoryLength", "]"}]}], "\n", 
+   RowBox[{"s2", " ", "=", " ", 
+    RowBox[{"generateRandomStrategy", "[", "memoryLength", "]"}]}], "\n", 
+   "\n", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"--", 
+       RowBox[{"-", " ", "Create"}]}], " ", "Two", " ", 
+      RowBox[{"Players", " ", "--"}]}], "-"}], " ", "*)"}], "\n", 
+   RowBox[{
+    RowBox[{"p1", " ", "=", " ", 
+     RowBox[{"CreatePlayer", "[", "s1", "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{"p2", " ", "=", " ", 
+     RowBox[{"CreatePlayer", "[", "s2", "]"}]}], ";"}], "\n", "\n", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"--", 
+       RowBox[{"-", " ", "Mate"}]}], " ", "the", " ", "Two", " ", 
+      RowBox[{"Players", " ", "--"}]}], "-"}], " ", "*)"}], "\n", 
+   RowBox[{
+    RowBox[{"childStrategy", " ", "=", " ", 
+     RowBox[{"MateStrategies", "[", "\n", "  ", 
+      RowBox[{
+       RowBox[{"p1", "[", "\"\<Strategy\>\"", "]"}], ",", " ", 
+       RowBox[{"p2", "[", "\"\<Strategy\>\"", "]"}], ",", "\n", "  ", 
+       RowBox[{"p1", "[", "\"\<Score\>\"", "]"}], ",", " ", 
+       RowBox[{"p2", "[", "\"\<Score\>\"", "]"}]}], "\n", "]"}]}], ";"}], 
+   "\n", "\n", 
+   RowBox[{
+    RowBox[{"childPlayer", " ", "=", " ", 
+     RowBox[{"CreatePlayer", "[", "childStrategy", "]"}]}], ";"}], "\n", "\n", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"--", 
+       RowBox[{"-", " ", "Display"}]}], " ", "All", " ", 
+      RowBox[{"Three", " ", "--"}]}], "-"}], " ", "*)"}], "\n", 
+   RowBox[{"{", 
+    RowBox[{"p1", ",", " ", "p2", ",", " ", "childPlayer"}], 
+    "}"}]}]}]], "Code",
+ CellChangeTimes->{3.958393351292225*^9},
+ CellLabel->"In[34]:=",ExpressionUUID->"310583b6-a969-e747-9dee-e5cb174f6d49"],
+
+Cell[BoxData[
+ RowBox[{"Mean", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"strategySimilarity", "[", 
+     RowBox[{
+      RowBox[{"#", "[", "\"\<Strategy\>\"", "]"}], ",", " ", "tftStrategy"}], 
+     "]"}], " ", "&"}], " ", "/@", " ", "players"}], "]"}]], "Code",
+ CellChangeTimes->{{3.9592693154361305`*^9, 3.9592693404636326`*^9}},
+ CellLabel->"In[41]:=",ExpressionUUID->"caa0cf3c-12c9-6245-89d2-62dc1cef7982"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{949, 461},
+WindowMargins->{{-5.5, Automatic}, {Automatic, 0}},
+ShowCellLabel->False,
+Magnification:>0.7 Inherited,
+FrontEndVersion->"14.2 for Microsoft Windows (64-bit) (December 26, 2024)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"419d6e2d-713b-b64c-b35f-733a0016800b"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[554, 20, 126, 2, 21, "Input",ExpressionUUID->"41400a0e-f429-f847-b367-74f96baa666f"],
+Cell[CellGroupData[{
+Cell[705, 26, 242, 5, 37, "Subsection",ExpressionUUID->"65469001-a303-e94f-9da0-9c2d76cfd3e4",
+ InitializationCell->True],
+Cell[950, 33, 241, 5, 23, "Text",ExpressionUUID->"9d4f3449-92eb-6040-acb9-535de6bdd95d",
+ InitializationCell->True],
+Cell[1194, 40, 470, 10, 32, "Input",ExpressionUUID->"a83cee83-050a-ba48-9ee6-ffc0c0b93fa9",
+ InitializationCell->True],
+Cell[1667, 52, 198, 4, 23, "Text",ExpressionUUID->"524e6a36-94ab-0148-a2e5-f17d8c090fd6",
+ InitializationCell->True],
+Cell[1868, 58, 395, 9, 32, "Input",ExpressionUUID->"0c623698-e0bb-b844-a764-fa359315c7fd",
+ InitializationCell->True],
+Cell[2266, 69, 186, 4, 23, "Text",ExpressionUUID->"0ebc2d02-8240-334f-9f80-acfa59c9e8f7",
+ InitializationCell->True],
+Cell[2455, 75, 666, 13, 32, "Input",ExpressionUUID->"565ab585-0a37-8247-82b4-f8c6574af163",
+ InitializationCell->True],
+Cell[3124, 90, 247, 4, 23, "Text",ExpressionUUID->"b9e0faf9-c1f5-894e-bdaf-8c32d5d3c987",
+ InitializationCell->True],
+Cell[CellGroupData[{
+Cell[3396, 98, 284, 6, 32, "Input",ExpressionUUID->"e0929050-5d71-dd4f-b12a-229f26e7acad",
+ InitializationCell->True],
+Cell[3683, 106, 195, 4, 46, "Output",ExpressionUUID->"a03c1ea6-617f-aa4e-8335-e9fb671658f3"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3927, 116, 233, 4, 46, "Section",ExpressionUUID->"f44b9be8-9d74-6d48-a3e6-494261c29bf9"],
+Cell[CellGroupData[{
+Cell[4185, 124, 162, 3, 37, "Subsection",ExpressionUUID->"80e27795-ff01-144d-87a0-f90f5295a1cc"],
+Cell[4350, 129, 23485, 548, 2604, "Code",ExpressionUUID->"b7d43543-e1ed-eb43-bf67-1c26d2ca4e0f"],
+Cell[27838, 679, 1315, 32, 84, "Code",ExpressionUUID->"9536b885-bc1c-9d43-99b0-0861b953dcef"],
+Cell[29156, 713, 1577, 36, 96, "Code",ExpressionUUID->"c10f804f-eadd-fa41-8d9d-b52600f90f4f"],
+Cell[30736, 751, 1446, 36, 96, "Code",ExpressionUUID->"95d45f3b-578f-bd49-b9ed-b7615a6b9399"],
+Cell[32185, 789, 1999, 43, 219, "Code",ExpressionUUID->"164616cf-ff4c-e34c-b914-3fa01b340f2d"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[34221, 837, 256, 4, 37, "Subsection",ExpressionUUID->"3e37adb7-c1f2-e048-89e9-9b5e24c3c2a2"],
+Cell[34480, 843, 1250, 25, 121, "Code",ExpressionUUID->"20fd8bf1-3693-2c4e-943a-4b96b4fdf76f"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[35767, 873, 162, 3, 37, "Subsection",ExpressionUUID->"6c0801f7-3089-5a49-8598-ad38d874a5db"],
+Cell[35932, 878, 5179, 91, 194, "Code",ExpressionUUID->"debf5f69-8e46-9d41-96dc-444b73668546"],
+Cell[41114, 971, 1546, 35, 170, "Code",ExpressionUUID->"0c7162a5-5cf1-ea43-b14a-73cb661c2bec"],
+Cell[42663, 1008, 1777, 36, 133, "Code",ExpressionUUID->"bce1cc57-df52-184b-b21b-925dcc23bb48"],
+Cell[44443, 1046, 1775, 36, 256, "Code",ExpressionUUID->"66b01cd4-086f-c547-9c73-c6c3a102c1d7"],
+Cell[46221, 1084, 25168, 536, 1682, "Code",ExpressionUUID->"44d082f3-2194-484e-a151-a991ff64688c",
+ InitializationCell->True],
+Cell[CellGroupData[{
+Cell[71414, 1624, 162, 3, 30, "Subsubsection",ExpressionUUID->"92360e82-2818-7943-9aad-15220b24fff3"],
+Cell[71579, 1629, 4433, 92, 575, "Code",ExpressionUUID->"fa245988-d946-a14b-bec3-f783ea24bcf0"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[76049, 1726, 163, 3, 30, "Subsubsection",ExpressionUUID->"e6a9ee08-be9d-7e46-9329-2219d4c06722"],
+Cell[76215, 1731, 2040, 54, 244, "Code",ExpressionUUID->"310583b6-a969-e747-9dee-e5cb174f6d49"],
+Cell[78258, 1787, 410, 9, 37, "Code",ExpressionUUID->"caa0cf3c-12c9-6245-89d2-62dc1cef7982"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
