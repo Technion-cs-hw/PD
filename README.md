@@ -5,23 +5,7 @@ This project explores the evolution of strategies in the Iterated Prisoner’s D
 
 📂 Project Structure
 
-.
-├── sim.nb     # Main Mathematica notebook with simulation and plotting code
-
-├── results.pdf               # PDF summary of findings and generated graphs
-
-├── benchmarks/
-│   ├── predefined/                   # Simulations with predefined strategies (Axelrod's tournament)
-│   │   ├── roundStatistics_10p_50p_50r.json
-│   │   └── ...
-│   └── random/                       # Simulations with random strategies
-│       ├── converged/               # Runs that successfully converged to cooperative behavior
-│       │   ├── roundStatistics_100p_200p_400r.json
-│       │   └── ...
-│       └── failed/                  # Runs that did not converge
-│           ├── roundStatistics_100p_200p_200r.json
-│           └── ...
-└── README.md
+<pre> ``` . ├── sim.nb # Main Mathematica notebook with simulation and plotting code ├── results.pdf # PDF summary of findings and generated graphs ├── benchmarks/ │ ├── predefined/ # Simulations with predefined strategies (Axelrod's tournament) │ │ ├── roundStatistics_10p_50p_50r.json │ │ └── ... │ └── random/ # Simulations with random strategies │ ├── converged/ # Runs that successfully converged to cooperative behavior │ │ ├── roundStatistics_100p_200p_400r.json │ │ └── ... │ └── failed/ # Runs that did not converge │ ├── roundStatistics_100p_200p_200r.json │ └── ... └── README.md ``` </pre>
 
 
 🧪 Experiments
