@@ -3,24 +3,25 @@
 This project explores the evolution of strategies in the Iterated Prisoner’s Dilemma (IPD) using simulations in Wolfram Mathematica. It studies how different strategies perform and evolve over time depending on parameters like memory length, number of rounds per game, and population selection dynamics.
 
 
-📂 Project Structure
+### 📂 Project Structure
 ```
 .
-├── PrisonersDilemmaSimulation.nb     # Main Mathematica notebook with simulation and plotting code
-├── results-summary.pdf               # PDF summary of findings and generated graphs
+├── sim.nb                         # Main Mathematica notebook with simulation and plotting code
+├── results.pdf                    # PDF summary of findings and generated graphs
 ├── benchmarks/
-│   ├── predefined/                   # Simulations with predefined strategies (Axelrod's tournament)
-│   │   ├── run1.json
+│   ├── predefined/                # Simulations with predefined strategies (Axelrod's tournament)
+│   │   ├── roundStatistics_10p_50p_50r.json
 │   │   └── ...
-│   └── random/                       # Simulations with random strategies
-│       ├── converged/               # Runs that successfully converged to cooperative behavior
-│       │   ├── run1.json
+│   └── random/                   # Simulations with random strategies
+│       ├── converged/            # Runs that successfully converged to cooperative behavior
+│       │   ├── roundStatistics_100p_200p_400r.json
 │       │   └── ...
-│       └── failed/                  # Runs that did not converge
-│           ├── run1.json
+│       └── failed/               # Runs that did not converge
+│           ├── roundStatistics_100p_200p_200r.json
 │           └── ...
 └── README.md
 ```
+
 
 
 🧪 Experiments
