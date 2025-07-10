@@ -7,7 +7,7 @@ This project explores the evolution of strategies in the Iterated Prisoner’s D
 ```
 .
 ├── sim.nb                         # Main Mathematica notebook with simulation and plotting code
-├── results.pdf                    # PDF summary of findings and generated graphs
+├── report.pdf                    # PDF summary of findings and generated graphs
 ├── benchmarks/
 │   ├── predefined/                # Simulations with predefined strategies (Axelrod's tournament)
 │   │   ├── roundStatistics_10p_50p_50r.json
