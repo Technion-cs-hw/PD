@@ -33,6 +33,7 @@ Three main experiments were conducted:
 → Tit-for-Tat-like behavior only emerges in long games and sufficiently long evolutionary runs.
 3. Predefined strategies (from Axelrod’s tournament)
 → Tit-for-Tat consistently dominates only when the number of rounds per game is large (e.g., 200+).
+
 *The random/ folder includes both converged and failed simulation runs for comparison.
 
 ### 📊 Summary
