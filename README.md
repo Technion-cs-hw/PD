@@ -40,4 +40,5 @@ Three main experiments were conducted:
 - Tit-for-Tat is optimal in the long term but not in short games.
 - Increasing historyLength expands the strategy space, requiring more generations to evolve effective strategies.
 - Cooperation is favored in longer interactions; short games lead to more defection.
+
 *See results.pdf for detailed findings and plots.
