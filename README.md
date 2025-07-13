@@ -1,4 +1,5 @@
 ### 🧠 Evolution of Cooperation in the Iterated Prisoner's Dilemma
+This project was done as partial fulfillment of the requirements of the 2360651 Technion course on advanced topics in software engineering, in the spring semester of the academic year 2024/25, under the supervision of Yossi Gil.
 
 This project explores the evolution of strategies in the Iterated Prisoner’s Dilemma (IPD) using simulations in Wolfram Mathematica. It studies how different strategies perform and evolve over time depending on parameters like memory length, number of rounds per game, and population selection dynamics.
 
